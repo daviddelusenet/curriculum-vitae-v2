@@ -1,0 +1,28 @@
+{
+  "name": "curriculum-vitae-v2",
+  "version": "1.0.0",
+  "description": "Curriculum vitae of David de Lusenet",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "author": "David de Lusenet",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.27.0",
+    "gatsby-plugin-manifest": "^2.7.0",
+    "gatsby-plugin-react-helmet": "^3.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.0"
+  }
+}
