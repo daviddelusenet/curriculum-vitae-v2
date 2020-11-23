@@ -1,0 +1,9 @@
+.cache
+.DS_Store
+.idea
+
+# Modules
+node_modules
+
+# Distribution files
+dist
