@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Curriculum vitae v2',
-    description: '',
+    description: 'Curriculum vitae of David de Lusenet',
     author: 'David de Lusenet',
   },
   plugins: [
@@ -17,6 +17,12 @@ module.exports = {
         theme_color: '#000000',
         display: 'standalone',
         icon: 'src/images/icon.svg',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-layout',
+      options: {
+        component: require.resolve(`./src/App.tsx`),
       },
     },
   ],
