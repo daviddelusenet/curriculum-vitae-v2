@@ -2,44 +2,34 @@ import {
   Avatar,
   AvatarWrapper,
   Icons,
-  InformationKey,
-  InformationRow,
-  InformationValue,
   InformationWrapper,
   Inner,
   Name,
   Occupation,
-  Wrapper,
+  StyledDemographicInformation,
 } from './DemographicInformation.sc'
 import React, { FunctionComponent } from 'react'
 import avatar from '../../../images/avatar.png'
+import DemographicInformationTable from '../../atoms/DemographicInformationTable/DemographicInformationTable'
 import ExternalLink from '../../atoms/ExternalLink/ExternalLink'
 import IconGithub from '../../../images/icon-github.svg'
 import IconLinkedIn from '../../../images/icon-linked-in.svg'
 import IconMail from '../../../images/icon-mail.svg'
 
 const DemographicInformation: FunctionComponent = () => (
-  <Wrapper>
+  <StyledDemographicInformation>
     <Name>David de Lusenet</Name>
-    <Occupation>Front-end developer</Occupation>
+    <Occupation>Senior front-end developer</Occupation>
     <Inner>
       <InformationWrapper>
-        <InformationRow>
-          <InformationKey>Date of birth</InformationKey>
-          <InformationValue>June 24, 1992</InformationValue>
-        </InformationRow>
-        <InformationRow>
-          <InformationKey>Nationality</InformationKey>
-          <InformationValue>Dutch</InformationValue>
-        </InformationRow>
-        <InformationRow>
-          <InformationKey>Current location</InformationKey>
-          <InformationValue>Amsterdam</InformationValue>
-        </InformationRow>
-        <InformationRow>
-          <InformationKey>Drivers license</InformationKey>
-          <InformationValue>B</InformationValue>
-        </InformationRow>
+        <DemographicInformationTable
+          data={{
+            'Date of birth': 'June 24, 1992',
+            Nationality: 'Dutch',
+            'Current location': 'Amsterdam',
+            'Drivers license': 'B',
+          }}
+        />
         <Icons>
           <ExternalLink
             href="https://github.com/daviddelusenet"
@@ -69,7 +59,7 @@ const DemographicInformation: FunctionComponent = () => (
         <Avatar alt="Avatar of David de Lusenet" src={avatar} />
       </AvatarWrapper>
     </Inner>
-  </Wrapper>
+  </StyledDemographicInformation>
 )
 
 export default DemographicInformation

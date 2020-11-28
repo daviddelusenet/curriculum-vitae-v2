@@ -35,5 +35,3 @@ export const StyledParagraph = styled.p`
     font-size: ${rem(24)};
   `}
 `
-
-export default StyledParagraph

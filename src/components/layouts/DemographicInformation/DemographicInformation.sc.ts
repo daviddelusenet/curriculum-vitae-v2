@@ -2,7 +2,7 @@ import media from 'styled-media-query'
 import rem from '../../../styles/mixins/rem'
 import styled from 'styled-components'
 
-export const Wrapper = styled.div`
+export const StyledDemographicInformation = styled.div`
   padding: ${rem(60)} 0 ${rem(40)};
 
   ${media.greaterThan('medium')`
@@ -44,33 +44,6 @@ export const InformationWrapper = styled.div`
     flex: 0 0 auto;
     width: ${rem(496)};
   `}
-`
-
-export const InformationRow = styled.div`
-  display: flex;
-  flex-wrap: nowrap;
-  line-height: 1.5;
-  font-size: ${rem(16)};
-
-  ${media.greaterThan('medium')`
-    font-size: ${rem(20)};
-  `}
-`
-
-export const InformationKey = styled.p`
-  flex: 0 0 auto;
-  padding: 0 ${rem(20)} 0 0;
-  width: ${rem(180)};
-
-  ${media.greaterThan('medium')`
-    width: ${rem(240)};
-  `}
-`
-
-export const InformationValue = styled.p`
-  flex: 1 1 auto;
-  font-weight: 300;
-  font-style: italic;
 `
 
 export const Icons = styled.div`

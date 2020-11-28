@@ -39,5 +39,3 @@ export const StyledListItem = styled.li`
     transform: rotate(-45deg);
   }
 `
-
-export default StyledListItem

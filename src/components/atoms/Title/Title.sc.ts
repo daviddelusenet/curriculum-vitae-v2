@@ -19,5 +19,3 @@ export const StyledTitle = styled.h3`
     font-size: ${rem(40)};
   `}
 `
-
-export default StyledTitle

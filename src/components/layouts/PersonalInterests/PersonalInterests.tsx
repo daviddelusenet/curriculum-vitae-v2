@@ -11,13 +11,13 @@ const PersonalInterests: FunctionComponent = () => (
       also enjoy skateboarding, doing yoga, and going to the gym.
     </Paragraph>
     <Paragraph>
-      When I&apos;m not on a basketball court or yoga mat, I&apos;m spending
-      most of my time with my girlfriend and our son Eden which was born in
-      November 2018 👼.
+      When I&apos;m not on a basketball court, skateboard or yoga mat, I&apos;m
+      spending most of my time together with my girlfriend and our son Eden
+      which was born in November of 2018 👼.
     </Paragraph>
     <Paragraph>
-      Besides the above, I&apos;m really into fashion and I enjoy playing video
-      games once in a while.
+      Besides all of the above, I&apos;m really into fashion and I enjoy playing
+      video games once in a while.
     </Paragraph>
   </>
 )

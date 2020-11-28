@@ -9,5 +9,3 @@ export const StyledList = styled.ul`
     margin: 0 0 ${rem(40)};
   `}
 `
-
-export default StyledList

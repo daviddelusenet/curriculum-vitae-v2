@@ -34,5 +34,3 @@ export const StyledSubtitle = styled.h4`
     font-size: ${rem(18)};
   `}
 `
-
-export default StyledSubtitle
