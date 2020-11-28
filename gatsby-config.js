@@ -25,5 +25,13 @@ module.exports = {
         component: require.resolve(`./src/App.tsx`),
       },
     },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /\.svg$/,
+        },
+      },
+    },
   ],
 }

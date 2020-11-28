@@ -14,9 +14,9 @@ import {
 import React, { FunctionComponent } from 'react'
 import avatar from '../../../images/avatar.png'
 import ExternalLink from '../../atoms/ExternalLink/ExternalLink'
-import iconGithub from '../../../images/icon-github.svg'
-import iconLinkedIn from '../../../images/icon-linked-in.svg'
-import iconMail from '../../../images/icon-mail.svg'
+import IconGithub from '../../../images/icon-github.svg'
+import IconLinkedIn from '../../../images/icon-linked-in.svg'
+import IconMail from '../../../images/icon-mail.svg'
 
 const DemographicInformation: FunctionComponent = () => (
   <Wrapper>
@@ -45,20 +45,20 @@ const DemographicInformation: FunctionComponent = () => (
             href="https://github.com/daviddelusenet"
             title="Check out my code"
           >
-            <img src={iconGithub} />
+            <IconGithub />
           </ExternalLink>
           <ExternalLink
             href="https://www.linkedin.com/in/david-de-lusenet-31b838111/"
             title="Connect with me"
           >
-            <img src={iconLinkedIn} />
+            <IconLinkedIn />
           </ExternalLink>
           <ExternalLink
             href="mailto:david@lusenet.nl"
             target="_self"
             title="Send me an email"
           >
-            <img src={iconMail} />
+            <IconMail />
           </ExternalLink>
           {/* <ExternalLink href="tel:+31650469600" title="You used to call me on my cellphone">
                         <img src={iconPhone} />

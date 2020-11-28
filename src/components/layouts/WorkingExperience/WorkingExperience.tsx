@@ -16,9 +16,9 @@ const WorkingExperience: FunctionComponent = () => (
     <Paragraph>
       Code d&apos;Azur is a digital brand and experience company with offices in
       Amsterdam, Barcelona, Dubai and Austin, Texas. Code d&apos;Azur
-      specializes itself in consulting & transformation, platforms, products &
-      services, plus content & campaigns that help our clients stand out from
-      the crowd and fit into their customers&apos; lives.
+      specializes itself in consulting and transformation, platforms, products
+      and services, plus content and campaigns that help our clients stand out
+      from the crowd and fit into their customers&apos; lives.
     </Paragraph>
     <Paragraph>
       At Code d&apos;Azur I already worked on multiple projects: our new
