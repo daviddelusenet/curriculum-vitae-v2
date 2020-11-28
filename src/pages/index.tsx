@@ -5,7 +5,7 @@ import Introduction from '../components/layouts/Introduction/Introduction'
 import PersonalInterests from '../components/layouts/PersonalInterests/PersonalInterests'
 import WorkingExperience from '../components/layouts/WorkingExperience/WorkingExperience'
 
-const Home: FunctionComponent = () => (
+const PageHome: FunctionComponent = () => (
   <>
     <DemographicInformation />
     <Introduction />
@@ -15,4 +15,4 @@ const Home: FunctionComponent = () => (
   </>
 )
 
-export default Home
+export default PageHome
