@@ -59,7 +59,7 @@ export const Icons = styled.div`
     height: ${rem(32)};
 
     &:hover {
-      color: ${({ theme }) => theme.primaryLinkColor};
+      color: ${({ theme }) => theme.primaryAccentColor};
     }
 
     &:last-of-type {
@@ -69,7 +69,7 @@ export const Icons = styled.div`
 
   svg {
     display: block;
-    transition: color 200ms ease;
+    transition: color 200ms ease-out;
     width: ${rem(32)};
     height: ${rem(32)};
   }

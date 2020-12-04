@@ -10,13 +10,13 @@ export const StyledParagraph = styled.p`
   font-weight: 300;
 
   a {
-    color: ${({ theme }) => theme.primaryLinkColor};
+    color: ${({ theme }) => theme.primaryAccentColor};
 
     &:hover {
       ${({ theme }) =>
         underline({
           backgroundColor: theme.primaryBackgroundColor,
-          color: theme.primaryLinkColor,
+          color: theme.primaryAccentColor,
           underlinePosition: '90%',
         })}
 
@@ -24,7 +24,7 @@ export const StyledParagraph = styled.p`
         ${({ theme }: { theme: DefaultTheme }) =>
           underline({
             backgroundColor: theme.primaryBackgroundColor,
-            color: theme.primaryLinkColor,
+            color: theme.primaryAccentColor,
           })}
       `}
     }
