@@ -11,7 +11,7 @@ const Page404: FunctionComponent = () => (
       Sorry, it looks like this page can&apos;t be found.. 😞
     </Paragraph>
     <Paragraph>
-      <Link to="/">Take me home</Link>
+      <Link to="/">I&apos;m coming home</Link>
     </Paragraph>
   </PageError>
 )

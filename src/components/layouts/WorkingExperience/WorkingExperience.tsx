@@ -75,15 +75,14 @@ const WorkingExperience: FunctionComponent = () => (
     <Paragraph>
       When I was not on an assignment or had any spare time I was working on an
       internal project for Cygni called Scorekeeper. This is an application
-      where employees can keep track of the results of the numerous games they
-      play versus each other.
+      where employees can keep track of the results of the countless matches
+      they play versus each other.
     </Paragraph>
     <Paragraph>
-      One of the goals of this project was to teach myself new things. This
-      means I was trying to primarily use technologies I was not (super)
-      familiar with yet. I developed both the front and back-end of this
-      application. For the front-end I was using TypeScript, React, Styled
-      Components and Apollo GraphQL.
+      One of the goals of this project was to learn a few new things. This meant
+      I primarily tried using technologies I was not (super) comfortable with at
+      the time. For the front-end I used TypeScript, React (hooks), Styled
+      Components and Apollo GraphQL among others.
     </Paragraph>
     <Paragraph>
       The back-end is a Node.js (Express) server which exposes a GraphQL API to

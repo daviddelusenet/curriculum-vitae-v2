@@ -4,10 +4,12 @@ import 'fontsource-open-sans/700.css'
 import 'fontsource-source-serif-pro/700.css'
 import React, { FunctionComponent } from 'react'
 import styled, { ThemeProvider } from 'styled-components'
+import AppStateProvider from './contexts/app-state/AppStateContext'
 import GlobalStyles from './styles/globalStyles'
 import media from 'styled-media-query'
 import rem from './styles/mixins/rem'
 import themeLight from './styles/themes/light'
+import ToggleDarkMode from './components/organisms/ToggleDarkMode/ToggleDarkMode'
 
 const Wrapper = styled.div`
   margin: 0 auto;
@@ -21,10 +23,13 @@ const Wrapper = styled.div`
 
 const App: FunctionComponent = ({ children }) => (
   <ThemeProvider theme={themeLight}>
-    <Wrapper>
-      <GlobalStyles />
-      {children}
-    </Wrapper>
+    <AppStateProvider>
+      <Wrapper>
+        <GlobalStyles />
+        {children}
+        <ToggleDarkMode />
+      </Wrapper>
+    </AppStateProvider>
   </ThemeProvider>
 )
 
