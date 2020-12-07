@@ -2,9 +2,9 @@ import Colors from '../colors'
 import { Theme } from './theme'
 
 const themeLight: Theme = {
-  primaryBackgroundColor: Colors.ALABASTER,
+  primaryBackgroundColor: Colors.BLACK,
   primaryAccentColor: Colors.ECSTASY,
-  primaryTextColor: Colors.BLACK,
+  primaryTextColor: Colors.ALABASTER,
   primaryFont: "'Open Sans', sans-serif",
   secondaryFont: "'Source Serif Pro', serif",
 }

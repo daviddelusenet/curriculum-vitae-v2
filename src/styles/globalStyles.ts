@@ -14,7 +14,7 @@ export default createGlobalStyle`
   }
 
   body {
-    font-family: ${({ theme }) => theme.primaryFontFamily};
+    font-family: ${({ theme }) => theme.primaryFont};
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

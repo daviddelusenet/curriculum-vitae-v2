@@ -11,7 +11,7 @@ export const StyledTitle = styled.h3`
       underlinePosition: '92%',
     })}
   margin: 0 0 ${rem(16)};
-  font-family: ${({ theme }) => theme.secondaryFontFamily};
+  font-family: ${({ theme }) => theme.secondaryFont};
   font-size: ${rem(28)};
   font-weight: 700;
 

@@ -12,7 +12,6 @@ export const StyledToggleDarkMode = styled.div`
 
 export const Label = styled.label`
   margin: 0 ${rem(8)} 0 0;
-  font-size: ${rem(12)};
-  font-weight: 300;
+  font-size: ${rem(14)};
   cursor: pointer;
 `

@@ -1,3 +1,4 @@
+import Colors from '../../../styles/colors'
 import media from 'styled-media-query'
 import rem from '../../../styles/mixins/rem'
 import styled from 'styled-components'
@@ -11,7 +12,7 @@ export const StyledDemographicInformation = styled.div`
 `
 
 export const Name = styled.h1`
-  font-family: ${({ theme }) => theme.secondaryFontFamily};
+  font-family: ${({ theme }) => theme.secondaryFont};
   font-size: ${rem(40)};
   font-weight: 700;
 
@@ -80,6 +81,7 @@ export const AvatarWrapper = styled.figure`
   order: 1;
   margin: 0 0 ${rem(16)};
   width: ${rem(160)};
+  background-color: ${Colors.ALABASTER};
 
   ${media.greaterThan('medium')`
     order: 2;
