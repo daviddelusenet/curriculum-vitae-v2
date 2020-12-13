@@ -10,7 +10,7 @@ import Toggle from '../../molecules/Toggle/Toggle'
 import { useAppState } from '../../../contexts/app-state/AppStateContext'
 
 const ToggleDarkMode: FunctionComponent = () => {
-  const [{ isDarkModeOn }, dispatch] = useAppState()
+  const [{ hasDarkMode }, dispatch] = useAppState()
   const [isBeingHovered, setIsBeingHovered] = useState(false)
 
   useEffect(() => {
@@ -20,17 +20,17 @@ const ToggleDarkMode: FunctionComponent = () => {
     ) {
       dispatch({
         payload: true,
-        type: Actions.SET_IS_DARK_MODE_ON,
+        type: Actions.SET_HAS_DARK_MODE,
       })
     }
   }, [dispatch])
 
-  const handleClick = useCallback(() => {
+  const toggleDarkMode = useCallback(() => {
     dispatch({
-      payload: !isDarkModeOn,
-      type: Actions.SET_IS_DARK_MODE_ON,
+      payload: !hasDarkMode,
+      type: Actions.SET_HAS_DARK_MODE,
     })
-  }, [dispatch, isDarkModeOn])
+  }, [dispatch, hasDarkMode])
 
   const handleMouseEnter = useCallback(() => {
     setIsBeingHovered(true)
@@ -46,11 +46,11 @@ const ToggleDarkMode: FunctionComponent = () => {
       onMouseLeave={handleMouseLeave}
     >
       {isBeingHovered && (
-        <Label onClick={handleClick}>
-          Dark mode is {isDarkModeOn ? 'on' : 'off'}
+        <Label onClick={toggleDarkMode}>
+          Dark mode is {hasDarkMode ? 'on' : 'off'}
         </Label>
       )}
-      <Toggle isChecked={isDarkModeOn} onClick={handleClick} />
+      <Toggle isChecked={hasDarkMode || false} onChange={toggleDarkMode} />
     </StyledToggleDarkMode>
   )
 }

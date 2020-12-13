@@ -1,14 +1,14 @@
-import React, { FunctionComponent, MouseEventHandler } from 'react'
+import React, { ChangeEventHandler, FunctionComponent } from 'react'
 import { StyledToggle } from './Toggle.sc'
 
 interface ToggleProps {
   isChecked: boolean
-  onClick: MouseEventHandler
+  onChange: ChangeEventHandler
 }
 
-const Toggle: FunctionComponent<ToggleProps> = ({ isChecked, onClick }) => (
+const Toggle: FunctionComponent<ToggleProps> = ({ isChecked, onChange }) => (
   <StyledToggle isChecked={isChecked}>
-    <input checked={isChecked} onClick={onClick} type="checkbox" />
+    <input checked={isChecked} onChange={onChange} type="checkbox" />
   </StyledToggle>
 )
 

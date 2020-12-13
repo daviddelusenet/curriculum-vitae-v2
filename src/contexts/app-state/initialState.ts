@@ -1,7 +1,7 @@
 export interface State {
-  isDarkModeOn: boolean
+  hasDarkMode: boolean | null
 }
 
 export const initialState: State = {
-  isDarkModeOn: false,
+  hasDarkMode: null,
 }

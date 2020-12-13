@@ -4,31 +4,17 @@ import 'fontsource-open-sans/700.css'
 import 'fontsource-source-serif-pro/700.css'
 import React, { FunctionComponent } from 'react'
 import AppStateProvider from './contexts/app-state/AppStateContext'
+import AppWrapper from './components/organisms/AppWrapper/AppWrapper'
 import GlobalStyles from './styles/globalStyles'
-import media from 'styled-media-query'
-import rem from './styles/mixins/rem'
-import styled from 'styled-components'
 import ThemeProvider from './contexts/theme/ThemeContext'
 import ToggleDarkMode from './components/organisms/ToggleDarkMode/ToggleDarkMode'
-
-const Wrapper = styled.div`
-  margin: 0 auto;
-  padding: 0 ${rem(24)} ${rem(40)};
-  max-width: ${rem(760)};
-
-  ${media.greaterThan('medium')`
-    padding: 0 ${rem(32)} ${rem(80)};
-  `}
-`
 
 const App: FunctionComponent = ({ children }) => (
   <AppStateProvider>
     <ThemeProvider>
-      <Wrapper>
-        <GlobalStyles />
-        {children}
-        <ToggleDarkMode />
-      </Wrapper>
+      <GlobalStyles />
+      <ToggleDarkMode />
+      <AppWrapper>{children}</AppWrapper>
     </ThemeProvider>
   </AppStateProvider>
 )

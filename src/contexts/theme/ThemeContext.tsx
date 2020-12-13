@@ -9,12 +9,10 @@ interface ThemeProviderProps {
 }
 
 const ThemeProvider: FunctionComponent<ThemeProviderProps> = ({ children }) => {
-  const [{ isDarkModeOn }] = useAppState()
+  const [{ hasDarkMode }] = useAppState()
 
   return (
-    <StyledComponentsThemeProvider
-      theme={isDarkModeOn ? themeDark : themeLight}
-    >
+    <StyledComponentsThemeProvider theme={hasDarkMode ? themeDark : themeLight}>
       {children}
     </StyledComponentsThemeProvider>
   )
