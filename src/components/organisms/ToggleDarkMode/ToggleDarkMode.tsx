@@ -14,15 +14,12 @@ const ToggleDarkMode: FunctionComponent = () => {
   const [isBeingHovered, setIsBeingHovered] = useState(false)
 
   useEffect(() => {
-    if (
-      window.matchMedia &&
-      window.matchMedia('(prefers-color-scheme: dark)').matches
-    ) {
-      dispatch({
-        payload: true,
-        type: Actions.SET_HAS_DARK_MODE,
-      })
-    }
+    dispatch({
+      payload:
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches,
+      type: Actions.SET_HAS_DARK_MODE,
+    })
   }, [dispatch])
 
   const toggleDarkMode = useCallback(() => {
