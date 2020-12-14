@@ -5,57 +5,43 @@ import Paragraph from '../../atoms/Paragraph/Paragraph'
 import Title from '../../atoms/Title/Title'
 
 const currentTools = [
-  'HTML5',
-  'CSS3/SASS/React CSS Modules',
-  'TypeScript/JavaScript ES6',
-  'NPM/Yarn',
-  'React',
-  'Redux',
-  'Gatsby',
+  'TypeScript/JavaScript',
+  'React/Styled Components',
+  'GSAP/Framer Motion',
+  'Gatsby/Apollo GraphQL',
+  'Storybook/Jest',
+  'ESLint/Stylelint/Prettier',
+  'Webpack/Rollup',
   'Node.js/Express',
-  'Apollo GraphQL',
-  'Storybook',
-  'Styled Components',
-  'GSAP',
-  'Webpack',
-  'Rollup',
-  'Babel',
-  'Git',
-  'ESLint',
-  'Stylelint',
-  'Prettier',
-  'CircleCI',
+  'NPM/Yarn',
+  'Git/Husky/Bitbucket Pipelines/CircleCI',
 ]
 
 const previousTools = [
+  'Redux',
+  'Sass/React CSS Modules',
   'PixiJS',
   'Backbone.js',
-  'jQuery',
-  'PHP',
-  'MySQL',
-  'Twig',
-  'Smarty',
-  'Twitter Bootstrap',
-  'Zurb Foundation',
-  'Gulp',
-  'Grunt',
+  'Twig/Smarty',
+  'Twitter Bootstrap/Zurb Foundation',
+  'Gulp/Grunt',
 ]
 
 const DevelopmentSkills: FunctionComponent = () => (
   <>
     <Title>Development skills</Title>
+    <Paragraph>What I&apos;m working with:</Paragraph>
     <List>
       {currentTools.map((tool) => (
         <ListItem key={tool}>{tool}</ListItem>
       ))}
     </List>
-    <Paragraph>{"Tools I've worked with in the past:"}</Paragraph>
+    <Paragraph>What I was working with:</Paragraph>
     <List>
       {previousTools.map((tool) => (
         <ListItem key={tool}>{tool}</ListItem>
       ))}
     </List>
-    <Paragraph>My preferred editor of choice is Visual Studio Code.</Paragraph>
   </>
 )
 

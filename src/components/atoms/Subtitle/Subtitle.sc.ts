@@ -17,13 +17,13 @@ export const StyledSubtitle = styled.h4`
   }
 
   a {
-    color: ${({ theme }) => theme.primaryLinkColor};
+    color: ${({ theme }) => theme.primaryAccentColor};
 
     &:hover {
       ${({ theme }) =>
         underline({
           backgroundColor: theme.primaryBackgroundColor,
-          color: theme.primaryLinkColor,
+          color: theme.primaryAccentColor,
           underlinePosition: '92%',
         })}
     }
