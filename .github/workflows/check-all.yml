@@ -1,9 +1,11 @@
 name: check-all
 on:
   push:
-    branches: [$default-branch]
+    branches:
+      - master
   pull_request:
-    branches: [$default-branch]
+    branches:
+      - master
 jobs:
   check-all:
     runs-on: ubuntu-latest
