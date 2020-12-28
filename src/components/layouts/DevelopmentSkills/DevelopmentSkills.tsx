@@ -14,7 +14,8 @@ const currentTools = [
   'Webpack/Rollup',
   'Node.js/Express',
   'NPM/Yarn',
-  'Git/Husky/Bitbucket Pipelines/CircleCI',
+  'Git/Husky',
+  'GitHub Actions/Bitbucket Pipelines/CircleCI',
 ]
 
 const previousTools = [
