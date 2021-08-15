@@ -7,6 +7,7 @@ import Title from '../../atoms/Title/Title'
 const currentTools = [
   'TypeScript/JavaScript',
   'React/Styled Components',
+  'Vue 3',
   'GSAP/Framer Motion',
   'Gatsby/Apollo GraphQL',
   'Storybook/Jest',
