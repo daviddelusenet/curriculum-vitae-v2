@@ -11,16 +11,6 @@ export const StyledDemographicInformation = styled.div`
   `}
 `
 
-export const Name = styled.h1`
-  font-family: ${({ theme }) => theme.secondaryFont};
-  font-size: ${rem(40)};
-  font-weight: 700;
-
-  ${media.greaterThan('medium')`
-    font-size: ${rem(64)};
-  `}
-`
-
 export const Occupation = styled.h2`
   margin: 0 0 ${rem(24)};
   font-size: ${rem(20)};

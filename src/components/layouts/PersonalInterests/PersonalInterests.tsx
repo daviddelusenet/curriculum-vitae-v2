@@ -12,8 +12,8 @@ const PersonalInterests: FunctionComponent = () => (
     </Paragraph>
     <Paragraph>
       When I&apos;m not on a basketball court, skateboard or yoga mat, I&apos;m
-      spending most of my time together with my girlfriend and our son Eden
-      which was born in November of 2018 👼.
+      spending most of my time with my girlfriend and our two-year old son Eden
+      👼.
     </Paragraph>
     <Paragraph>
       Besides all of the above, I&apos;m really into fashion and I enjoy playing

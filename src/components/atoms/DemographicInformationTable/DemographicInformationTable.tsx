@@ -7,17 +7,16 @@ interface DemographicInformationTableProps {
   }
 }
 
-const DemographicInformationTable: FunctionComponent<DemographicInformationTableProps> = ({
-  data,
-}) => (
-  <>
-    {Object.keys(data).map((key) => (
-      <Row key={key}>
-        <Key>{key}</Key>
-        <Value>{data[key]}</Value>
-      </Row>
-    ))}
-  </>
-)
+const DemographicInformationTable: FunctionComponent<DemographicInformationTableProps> =
+  ({ data }) => (
+    <>
+      {Object.keys(data).map((key) => (
+        <Row key={key}>
+          <Key>{key}</Key>
+          <Value>{data[key]}</Value>
+        </Row>
+      ))}
+    </>
+  )
 
 export default DemographicInformationTable

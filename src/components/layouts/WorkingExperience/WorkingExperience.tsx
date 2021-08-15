@@ -30,11 +30,13 @@ const WorkingExperience: FunctionComponent = () => (
       >
         Knit! Kvadrat
       </ExternalLink>
-      and currently I&apos;m working for one of our biggest clients,
+      and
       <ExternalLink hasLeadingSpace href="https://polestar.com/">
         Polestar
       </ExternalLink>
-      .
+      . Currently I&apos;m working for one of our bigger clients, Philips.
+      During this project I learned how the work with Vue 3. Always nice to
+      learn new things!
     </Paragraph>
     <Subtitle date="August 2019 - July 2020">
       front-end developer consultant at

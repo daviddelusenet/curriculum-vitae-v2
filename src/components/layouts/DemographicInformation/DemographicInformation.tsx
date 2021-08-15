@@ -4,7 +4,6 @@ import {
   Icons,
   InformationWrapper,
   Inner,
-  Name,
   Occupation,
   StyledDemographicInformation,
 } from './DemographicInformation.sc'
@@ -15,10 +14,14 @@ import ExternalLink from '../../atoms/ExternalLink/ExternalLink'
 import IconGithub from '../../../images/icon-github.svg'
 import IconLinkedIn from '../../../images/icon-linked-in.svg'
 import IconMail from '../../../images/icon-mail.svg'
+import Title from '../../atoms/Title/Title'
+import { TitleSizes } from '../../atoms/Title/Title.sc'
 
 const DemographicInformation: FunctionComponent = () => (
   <StyledDemographicInformation>
-    <Name>David de Lusenet</Name>
+    <Title hasUnderline={false} size={TitleSizes.large} tag="h1">
+      David de Lusenet
+    </Title>
     <Occupation>Senior front-end developer</Occupation>
     <Inner>
       <InformationWrapper>

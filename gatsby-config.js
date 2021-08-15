@@ -3,6 +3,8 @@ module.exports = {
     title: 'Curriculum vitae v2',
     description: 'Curriculum vitae of David de Lusenet',
     author: 'David de Lusenet',
+    url: 'https://cv.lusenet.com/',
+    image: 'src/images/og-image.jpg',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
