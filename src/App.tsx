@@ -9,10 +9,12 @@ import AppWrapper from './components/organisms/AppWrapper/AppWrapper'
 import GlobalStyles from './styles/globalStyles'
 import ThemeProvider from './contexts/theme/ThemeContext'
 import ToggleDarkMode from './components/organisms/ToggleDarkMode/ToggleDarkMode'
+import SEO from './components/molecules/SEO/SEO'
 
 const App: FunctionComponent = ({ children }) => (
   <AppStateProvider>
     <ThemeProvider>
+      <SEO />
       <GlobalStyles />
       <ToggleDarkMode />
       <AppWrapper>{children}</AppWrapper>
