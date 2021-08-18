@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Curriculum vitae v2',
+    title: 'CV of David de Lusenet',
     description: 'Curriculum vitae of David de Lusenet',
     author: 'David de Lusenet',
     url: 'https://cv.lusenet.com/',
@@ -12,8 +12,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Curriculum Vitae V2',
-        short_name: 'CV V2',
+        name: 'Curriculum vitae of David de Lusenet',
+        short_name: 'CV of David de Lusenet',
         start_url: '/',
         background_color: '#000000',
         theme_color: '#000000',
