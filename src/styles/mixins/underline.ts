@@ -17,7 +17,7 @@ export const animateUnderline = (): FlattenSimpleInterpolation => css`
   background-size: 0.05em 1px, 0.05em 1px, 100% 1px;
 `
 
-export default ({
+export const underline = ({
   animate = false,
   backgroundColor,
   color,

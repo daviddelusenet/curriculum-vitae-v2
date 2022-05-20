@@ -1,8 +1,8 @@
 import React, { FunctionComponent } from 'react'
-import Paragraph from '../../atoms/Paragraph/Paragraph'
-import Title from '../../atoms/Title/Title'
+import { Paragraph } from '../../atoms/Paragraph/Paragraph'
+import { Title } from '../../atoms/Title/Title'
 
-const Introduction: FunctionComponent = () => (
+export const Introduction: FunctionComponent = () => (
   <>
     <Title>Introduction</Title>
     <Paragraph>
@@ -51,5 +51,3 @@ const Introduction: FunctionComponent = () => (
     </Paragraph>
   </>
 )
-
-export default Introduction

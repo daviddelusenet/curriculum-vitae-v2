@@ -1,8 +1,8 @@
 import React, { FunctionComponent } from 'react'
-import List from '../../atoms/List/List'
-import ListItem from '../../atoms/ListItem/ListItem'
-import Paragraph from '../../atoms/Paragraph/Paragraph'
-import Title from '../../atoms/Title/Title'
+import { List } from '../../atoms/List/List'
+import { ListItem } from '../../atoms/ListItem/ListItem'
+import { Paragraph } from '../../atoms/Paragraph/Paragraph'
+import { Title } from '../../atoms/Title/Title'
 
 const currentTools = [
   'TypeScript/JavaScript',
@@ -29,7 +29,7 @@ const previousTools = [
   'Gulp/Grunt',
 ]
 
-const DevelopmentSkills: FunctionComponent = () => (
+export const DevelopmentSkills: FunctionComponent = () => (
   <>
     <Title>Development skills</Title>
     <Paragraph>What I&apos;m working with:</Paragraph>
@@ -46,5 +46,3 @@ const DevelopmentSkills: FunctionComponent = () => (
     </List>
   </>
 )
-
-export default DevelopmentSkills

@@ -1,10 +1,10 @@
 import React, { FunctionComponent } from 'react'
-import ExternalLink from '../../atoms/ExternalLink/ExternalLink'
-import Paragraph from '../../atoms/Paragraph/Paragraph'
-import Subtitle from '../../atoms/Subtitle/Subtitle'
-import Title from '../../atoms/Title/Title'
+import { ExternalLink } from '../../atoms/ExternalLink/ExternalLink'
+import { Paragraph } from '../../atoms/Paragraph/Paragraph'
+import { Subtitle } from '../../atoms/Subtitle/Subtitle'
+import { Title } from '../../atoms/Title/Title'
 
-const WorkingExperience: FunctionComponent = () => (
+export const WorkingExperience: FunctionComponent = () => (
   <>
     <Title>Working experience</Title>
     <Subtitle date="July 2020 - present">
@@ -223,5 +223,3 @@ const WorkingExperience: FunctionComponent = () => (
     </Paragraph>
   </>
 )
-
-export default WorkingExperience

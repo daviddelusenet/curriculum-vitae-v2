@@ -1,4 +1,3 @@
-import { Label, StyledToggleDarkMode } from './ToggleDarkMode.sc'
 import React, {
   FunctionComponent,
   useCallback,
@@ -6,10 +5,12 @@ import React, {
   useState,
 } from 'react'
 import { Actions } from '../../../contexts/app-state/reducer'
-import Toggle from '../../molecules/Toggle/Toggle'
+import { Toggle } from '../../molecules/Toggle/Toggle'
 import { useAppState } from '../../../contexts/app-state/AppStateContext'
+import { rem } from '../../../styles/mixins/rem'
+import styled from 'styled-components'
 
-const ToggleDarkMode: FunctionComponent = () => {
+export const ToggleDarkMode: FunctionComponent = () => {
   const [{ hasDarkMode }, dispatch] = useAppState()
   const [isBeingHovered, setIsBeingHovered] = useState(false)
 
@@ -52,4 +53,17 @@ const ToggleDarkMode: FunctionComponent = () => {
   )
 }
 
-export default ToggleDarkMode
+const StyledToggleDarkMode = styled.div`
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  position: fixed;
+  bottom: ${rem(12)};
+  right: ${rem(12)};
+`
+
+const Label = styled.label`
+  margin: 0 ${rem(8)} 0 0;
+  font-size: ${rem(14)};
+  cursor: pointer;
+`

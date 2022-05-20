@@ -1,14 +1,16 @@
 import React, { FunctionComponent, ReactNode } from 'react'
 import { ThemeProvider as StyledComponentsThemeProvider } from 'styled-components'
-import themeDark from '../../styles/themes/dark'
-import themeLight from '../../styles/themes/light'
+import { themeDark } from '../../styles/themes/dark'
+import { themeLight } from '../../styles/themes/light'
 import { useAppState } from '../app-state/AppStateContext'
 
-interface ThemeProviderProps {
+export interface ThemeProviderProps {
   children: ReactNode
 }
 
-const ThemeProvider: FunctionComponent<ThemeProviderProps> = ({ children }) => {
+export const ThemeProvider: FunctionComponent<ThemeProviderProps> = ({
+  children,
+}) => {
   const [{ hasDarkMode }] = useAppState()
 
   return (
@@ -17,5 +19,3 @@ const ThemeProvider: FunctionComponent<ThemeProviderProps> = ({ children }) => {
     </StyledComponentsThemeProvider>
   )
 }
-
-export default ThemeProvider

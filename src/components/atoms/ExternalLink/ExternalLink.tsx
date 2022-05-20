@@ -1,6 +1,6 @@
 import React, { FunctionComponent, ReactNode } from 'react'
 
-interface ExternalLinkProps {
+export interface ExternalLinkProps {
   children: ReactNode
   hasLeadingSpace?: boolean
   hasTrailingSpace?: boolean
@@ -10,7 +10,7 @@ interface ExternalLinkProps {
   title?: string
 }
 
-const ExternalLink: FunctionComponent<ExternalLinkProps> = ({
+export const ExternalLink: FunctionComponent<ExternalLinkProps> = ({
   children,
   hasLeadingSpace = false,
   hasTrailingSpace = false,
@@ -27,5 +27,3 @@ const ExternalLink: FunctionComponent<ExternalLinkProps> = ({
     {hasTrailingSpace && ' '}
   </>
 )
-
-export default ExternalLink

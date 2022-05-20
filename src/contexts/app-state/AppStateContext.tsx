@@ -19,11 +19,11 @@ const AppStateContext = createContext<AppStateContext>([
 
 export const useAppState = (): AppStateContext => useContext(AppStateContext)
 
-interface AppStateProviderProps {
+export interface AppStateProviderProps {
   children: ReactNode
 }
 
-const AppStateProvider: FunctionComponent<AppStateProviderProps> = ({
+export const AppStateProvider: FunctionComponent<AppStateProviderProps> = ({
   children,
 }) => {
   const [state, dispatch] = useReducer(globalStateReducer, initialState)
@@ -34,5 +34,3 @@ const AppStateProvider: FunctionComponent<AppStateProviderProps> = ({
     </AppStateContext.Provider>
   )
 }
-
-export default AppStateProvider
