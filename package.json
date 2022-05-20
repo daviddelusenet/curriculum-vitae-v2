@@ -4,7 +4,7 @@
   "description": "Curriculum vitae of David de Lusenet",
   "main": "index.js",
   "scripts": {
-    "build": "gatsby build",
+    "build": "npm run clean && gatsby build",
     "develop": "gatsby develop --open",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
