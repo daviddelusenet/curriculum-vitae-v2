@@ -10,18 +10,18 @@ const WorkingExperience: FunctionComponent = () => (
     <Subtitle date="July 2020 - present">
       senior front-end developer at
       <ExternalLink hasLeadingSpace href="https://codedazur.com/">
-        Code d&apos;Azur
+        code d&apos;azur
       </ExternalLink>
     </Subtitle>
     <Paragraph>
-      Code d&apos;Azur is a digital brand and experience company with offices in
-      Amsterdam, Barcelona, Dubai and Austin, Texas. Code d&apos;Azur
+      Code d&apos;azur is a digital brand and experience company with offices in
+      Amsterdam, Barcelona, Dubai and Austin, Texas. Code d&apos;azur
       specializes itself in consulting and transformation, platforms, products
       and services, plus content and campaigns that help our clients stand out
       from the crowd and fit into their customers&apos; lives.
     </Paragraph>
     <Paragraph>
-      At Code d&apos;Azur I already worked on multiple projects: our new
+      At code d&apos;azur I already worked on multiple projects: our new
       portfolio website,
       <ExternalLink
         hasLeadingSpace
@@ -30,13 +30,26 @@ const WorkingExperience: FunctionComponent = () => (
       >
         Knit! Kvadrat
       </ExternalLink>
-      and
-      <ExternalLink hasLeadingSpace href="https://polestar.com/">
+      ,
+      <ExternalLink
+        hasLeadingSpace
+        hasTrailingSpace
+        href="https://polestar.com/"
+      >
         Polestar
       </ExternalLink>
-      . Currently I&apos;m working for one of our bigger clients, Philips.
-      During this project I learned how the work with Vue 3. Always nice to
-      learn new things!
+      and Philips. The Philips project was the first project where I used Vue 3.
+      Always nice to learn new things!
+    </Paragraph>
+    <Paragraph>
+      Currently I&apos;m working for another cool client, Lotus cars. We&apos;re
+      developing the part of their website which is about their newest full
+      electric car, the
+      <ExternalLink hasLeadingSpace href="https://lotuscars.com/eletre">
+        Eletre
+      </ExternalLink>
+      . I&apos;m the lead developer on this project and it&apos;s going well so
+      far!
     </Paragraph>
     <Subtitle date="August 2019 - July 2020">
       front-end developer consultant at
