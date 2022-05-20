@@ -1,8 +1,8 @@
-import React, { FunctionComponent } from 'react'
-import { ExternalLink } from '../../atoms/ExternalLink/ExternalLink'
-import { Paragraph } from '../../atoms/Paragraph/Paragraph'
-import { Subtitle } from '../../atoms/Subtitle/Subtitle'
-import { Title } from '../../atoms/Title/Title'
+import React, { FunctionComponent } from "react";
+import { ExternalLink } from "../../atoms/ExternalLink/ExternalLink";
+import { Paragraph } from "../../atoms/Paragraph/Paragraph";
+import { Subtitle } from "../../atoms/Subtitle/Subtitle";
+import { Title } from "../../atoms/Title/Title";
 
 export const WorkingExperience: FunctionComponent = () => (
   <>
@@ -222,4 +222,4 @@ export const WorkingExperience: FunctionComponent = () => (
       helping out with Photoshop or Final Cut Pro.
     </Paragraph>
   </>
-)
+);

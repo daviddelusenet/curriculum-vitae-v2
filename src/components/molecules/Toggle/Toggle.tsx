@@ -1,10 +1,10 @@
-import React, { ChangeEventHandler, FunctionComponent } from 'react'
-import { rem } from '../../../styles/mixins/rem'
-import styled, { css } from 'styled-components'
+import React, { ChangeEventHandler, FunctionComponent } from "react";
+import { rem } from "../../../styles/mixins/rem";
+import styled, { css } from "styled-components";
 
 export interface ToggleProps {
-  isChecked: boolean
-  onChange: ChangeEventHandler
+  isChecked: boolean;
+  onChange: ChangeEventHandler;
 }
 
 export const Toggle: FunctionComponent<ToggleProps> = ({
@@ -14,10 +14,10 @@ export const Toggle: FunctionComponent<ToggleProps> = ({
   <StyledToggle isChecked={isChecked}>
     <input checked={isChecked} onChange={onChange} type="checkbox" />
   </StyledToggle>
-)
+);
 
 interface StyledToggleProps {
-  isChecked: boolean
+  isChecked: boolean;
 }
 
 const StyledToggle = styled.div<StyledToggleProps>`
@@ -46,7 +46,7 @@ const StyledToggle = styled.div<StyledToggleProps>`
     width: ${rem(16)};
     height: ${rem(16)};
     background-color: ${({ theme }) => theme.primaryBackgroundColor};
-    content: '';
+    content: "";
     pointer-events: none;
     border-radius: 100%;
     transition: transform 200ms ease-out;
@@ -61,4 +61,4 @@ const StyledToggle = styled.div<StyledToggleProps>`
         transform: translate3d(${rem(16)}, 0, 0);
       }
     `}
-`
+`;

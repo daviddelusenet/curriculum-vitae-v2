@@ -1,15 +1,15 @@
-import { State } from './initialState'
+import { State } from "./initialState";
 
 export enum Actions {
-  SET_HAS_DARK_MODE = 'GLOBAL.SET_HAS_DARK_MODE',
+  SET_HAS_DARK_MODE = "GLOBAL.SET_HAS_DARK_MODE",
 }
 
 interface SetHasDarkModeAction {
-  payload: State['hasDarkMode']
-  type: typeof Actions.SET_HAS_DARK_MODE
+  payload: State["hasDarkMode"];
+  type: typeof Actions.SET_HAS_DARK_MODE;
 }
 
-export type Action = SetHasDarkModeAction
+export type Action = SetHasDarkModeAction;
 
 export const globalStateReducer = (state: State, action: Action): State => {
   switch (action.type) {
@@ -17,9 +17,9 @@ export const globalStateReducer = (state: State, action: Action): State => {
       return {
         ...state,
         hasDarkMode: action.payload,
-      }
+      };
 
     default:
-      return state
+      return state;
   }
-}
+};

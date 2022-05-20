@@ -1,15 +1,15 @@
-import React, { FunctionComponent } from 'react'
-import avatar from '../../../images/avatar.png'
-import { DemographicInformationTable } from '../../atoms/DemographicInformationTable/DemographicInformationTable'
-import { ExternalLink } from '../../atoms/ExternalLink/ExternalLink'
-import IconGithub from '../../../images/icon-github.svg'
-import IconLinkedIn from '../../../images/icon-linked-in.svg'
-import IconMail from '../../../images/icon-mail.svg'
-import { Title, TitleSizes } from '../../atoms/Title/Title'
-import { Colors } from '../../../styles/colors'
-import media from 'styled-media-query'
-import { rem } from '../../../styles/mixins/rem'
-import styled from 'styled-components'
+import React, { FunctionComponent } from "react";
+import avatar from "../../../images/avatar.png";
+import { DemographicInformationTable } from "../../atoms/DemographicInformationTable/DemographicInformationTable";
+import { ExternalLink } from "../../atoms/ExternalLink/ExternalLink";
+import IconGithub from "../../../images/icon-github.svg";
+import IconLinkedIn from "../../../images/icon-linked-in.svg";
+import IconMail from "../../../images/icon-mail.svg";
+import { Title, TitleSizes } from "../../atoms/Title/Title";
+import { Colors } from "../../../styles/colors";
+import media from "styled-media-query";
+import { rem } from "../../../styles/mixins/rem";
+import styled from "styled-components";
 
 export const DemographicInformation: FunctionComponent = () => (
   <StyledDemographicInformation>
@@ -21,10 +21,10 @@ export const DemographicInformation: FunctionComponent = () => (
       <InformationWrapper>
         <DemographicInformationTable
           data={{
-            'Date of birth': 'June 24, 1992',
-            Nationality: 'Dutch',
-            'Current location': 'Amsterdam',
-            'Drivers license': 'B',
+            "Date of birth": "June 24, 1992",
+            Nationality: "Dutch",
+            "Current location": "Amsterdam",
+            "Drivers license": "B",
           }}
         />
         <Icons>
@@ -57,41 +57,41 @@ export const DemographicInformation: FunctionComponent = () => (
       </AvatarWrapper>
     </Inner>
   </StyledDemographicInformation>
-)
+);
 
 const StyledDemographicInformation = styled.div`
   padding: ${rem(60)} 0 ${rem(40)};
 
-  ${media.greaterThan('medium')`
+  ${media.greaterThan("medium")`
     padding: ${rem(80)} 0 ${rem(64)};
   `}
-`
+`;
 
 const Occupation = styled.h2`
   margin: 0 0 ${rem(24)};
   font-size: ${rem(20)};
 
-  ${media.greaterThan('medium')`
+  ${media.greaterThan("medium")`
     font-size: ${rem(32)};
   `}
-`
+`;
 
 const Inner = styled.div`
   display: flex;
   flex-wrap: wrap;
-`
+`;
 
 const InformationWrapper = styled.div`
   flex: 1 1 auto;
   order: 2;
   width: 100%;
 
-  ${media.greaterThan('medium')`
+  ${media.greaterThan("medium")`
     order: 1;
     flex: 0 0 auto;
     width: ${rem(496)};
   `}
-`
+`;
 
 const Icons = styled.div`
   display: flex;
@@ -120,7 +120,7 @@ const Icons = styled.div`
     width: ${rem(32)};
     height: ${rem(32)};
   }
-`
+`;
 
 const AvatarWrapper = styled.figure`
   flex: 0 0 auto;
@@ -129,14 +129,14 @@ const AvatarWrapper = styled.figure`
   width: ${rem(160)};
   background-color: ${Colors.ALABASTER};
 
-  ${media.greaterThan('medium')`
+  ${media.greaterThan("medium")`
     order: 2;
     margin: 0;
     width: ${rem(200)};
   `}
-`
+`;
 
 const Avatar = styled.img`
   display: block;
   width: 100%;
-`
+`;

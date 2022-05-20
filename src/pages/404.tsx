@@ -1,8 +1,8 @@
-import React, { FunctionComponent } from 'react'
-import { Link } from 'gatsby'
-import { PageError } from '../components/layouts/PageError/PageError'
-import { Paragraph } from '../components/atoms/Paragraph/Paragraph'
-import { Title } from '../components/atoms/Title/Title'
+import React, { FunctionComponent } from "react";
+import { Link } from "gatsby";
+import { PageError } from "../components/layouts/PageError/PageError";
+import { Paragraph } from "../components/atoms/Paragraph/Paragraph";
+import { Title } from "../components/atoms/Title/Title";
 
 const Page404: FunctionComponent = () => (
   <PageError>
@@ -14,6 +14,6 @@ const Page404: FunctionComponent = () => (
       <Link to="/">I&apos;m coming home</Link>
     </Paragraph>
   </PageError>
-)
+);
 
-export default Page404
+export default Page404;

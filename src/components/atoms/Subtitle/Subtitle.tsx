@@ -1,12 +1,12 @@
-import React, { FunctionComponent, ReactNode } from 'react'
-import media from 'styled-media-query'
-import { rem } from '../../../styles/mixins/rem'
-import styled from 'styled-components'
-import { underline } from '../../../styles/mixins/underline'
+import React, { FunctionComponent, ReactNode } from "react";
+import media from "styled-media-query";
+import { rem } from "../../../styles/mixins/rem";
+import styled from "styled-components";
+import { underline } from "../../../styles/mixins/underline";
 
 export interface SubtitleProps {
-  children: ReactNode
-  date: string
+  children: ReactNode;
+  date: string;
 }
 
 export const Subtitle: FunctionComponent<SubtitleProps> = ({
@@ -17,7 +17,7 @@ export const Subtitle: FunctionComponent<SubtitleProps> = ({
     <span>{date}</span>
     {children}
   </StyledSubtitle>
-)
+);
 
 const StyledSubtitle = styled.h4`
   margin: 0 0 ${rem(4)};
@@ -40,13 +40,13 @@ const StyledSubtitle = styled.h4`
         underline({
           backgroundColor: theme.primaryBackgroundColor,
           color: theme.primaryAccentColor,
-          underlinePosition: '92%',
+          underlinePosition: "92%",
         })}
     }
   }
 
-  ${media.greaterThan('medium')`
+  ${media.greaterThan("medium")`
     margin: 0 0 ${rem(8)};
     font-size: ${rem(18)};
   `}
-`
+`;

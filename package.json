@@ -13,7 +13,8 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "check:js": "eslint \"./src/**\"",
     "check:types": "tsc",
-    "check:all": "npm run check:js && npm run check:types"
+    "check:all": "npm run check:js && npm run check:types",
+    "update:style": "prettier --write ."
   },
   "author": "David de Lusenet",
   "license": "MIT",

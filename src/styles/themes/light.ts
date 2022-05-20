@@ -1,5 +1,5 @@
-import { Colors } from '../colors'
-import { Theme } from './theme'
+import { Colors } from "../colors";
+import { Theme } from "./theme";
 
 export const themeLight: Theme = {
   primaryBackgroundColor: Colors.ALABASTER,
@@ -7,4 +7,4 @@ export const themeLight: Theme = {
   primaryTextColor: Colors.BLACK,
   primaryFont: "'Open Sans', sans-serif",
   secondaryFont: "'Source Serif Pro', serif",
-}
+};

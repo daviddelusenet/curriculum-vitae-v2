@@ -1,6 +1,6 @@
-import React, { FunctionComponent } from 'react'
-import { Paragraph } from '../../atoms/Paragraph/Paragraph'
-import { Title } from '../../atoms/Title/Title'
+import React, { FunctionComponent } from "react";
+import { Paragraph } from "../../atoms/Paragraph/Paragraph";
+import { Title } from "../../atoms/Title/Title";
 
 export const PersonalInterests: FunctionComponent = () => (
   <>
@@ -20,4 +20,4 @@ export const PersonalInterests: FunctionComponent = () => (
       video games once in a while.
     </Paragraph>
   </>
-)
+);

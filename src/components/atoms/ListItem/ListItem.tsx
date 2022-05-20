@@ -1,15 +1,15 @@
-import React, { FunctionComponent, ReactNode } from 'react'
-import media from 'styled-media-query'
-import { rem } from '../../../styles/mixins/rem'
-import styled from 'styled-components'
+import React, { FunctionComponent, ReactNode } from "react";
+import media from "styled-media-query";
+import { rem } from "../../../styles/mixins/rem";
+import styled from "styled-components";
 
 export interface ListItemProps {
-  children: ReactNode
+  children: ReactNode;
 }
 
 export const ListItem: FunctionComponent<ListItemProps> = ({ children }) => (
   <StyledListItem>{children}</StyledListItem>
-)
+);
 
 const StyledListItem = styled.li`
   position: relative;
@@ -18,7 +18,7 @@ const StyledListItem = styled.li`
   font-size: ${rem(18)};
   font-weight: 300;
 
-  ${media.greaterThan('medium')`
+  ${media.greaterThan("medium")`
     padding: 0 0 0 ${rem(24)};
     font-size: ${rem(24)};
   `}
@@ -32,9 +32,9 @@ const StyledListItem = styled.li`
     background-color: ${({ theme }) => theme.primaryTextColor};
     width: ${rem(8)};
     height: ${rem(1)};
-    content: '';
+    content: "";
 
-    ${media.greaterThan('medium')`
+    ${media.greaterThan("medium")`
       top: ${rem(18)};
       width: ${rem(12)};
     `}
@@ -47,4 +47,4 @@ const StyledListItem = styled.li`
   &::before {
     transform: rotate(-45deg);
   }
-`
+`;

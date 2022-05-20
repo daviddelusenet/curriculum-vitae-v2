@@ -1,35 +1,35 @@
-import React, { FunctionComponent, ReactNode } from 'react'
-import media from 'styled-media-query'
-import { rem } from '../../../styles/mixins/rem'
-import styled, { css } from 'styled-components'
-import { underline } from '../../../styles/mixins/underline'
+import React, { FunctionComponent, ReactNode } from "react";
+import media from "styled-media-query";
+import { rem } from "../../../styles/mixins/rem";
+import styled, { css } from "styled-components";
+import { underline } from "../../../styles/mixins/underline";
 
 export enum TitleSizes {
-  'small' = 'small',
-  'large' = 'large',
+  "small" = "small",
+  "large" = "large",
 }
 
 export interface TitleProps {
-  children: ReactNode
-  hasUnderline?: boolean
-  size?: TitleSizes
-  tag?: 'h1' | 'h2' | 'h3'
+  children: ReactNode;
+  hasUnderline?: boolean;
+  size?: TitleSizes;
+  tag?: "h1" | "h2" | "h3";
 }
 
 export const Title: FunctionComponent<TitleProps> = ({
   children,
   hasUnderline = true,
   size = TitleSizes.small,
-  tag = 'h3',
+  tag = "h3",
 }) => (
   <StyledTitle as={tag} hasUnderline={hasUnderline} size={size}>
     {children}
   </StyledTitle>
-)
+);
 
 interface StyledTitleProps {
-  hasUnderline: boolean
-  size: TitleSizes
+  hasUnderline: boolean;
+  size: TitleSizes;
 }
 
 const StyledTitle = styled.h3<StyledTitleProps>`
@@ -40,7 +40,7 @@ const StyledTitle = styled.h3<StyledTitleProps>`
     underline({
       backgroundColor: theme.primaryBackgroundColor,
       color: theme.primaryTextColor,
-      underlinePosition: '92%',
+      underlinePosition: "92%",
     })}
 
   ${({ size }) =>
@@ -50,7 +50,7 @@ const StyledTitle = styled.h3<StyledTitleProps>`
       font-size: ${rem(28)};
       font-weight: 700;
 
-      ${media.greaterThan('medium')`
+      ${media.greaterThan("medium")`
         font-size: ${rem(40)};
       `}
     `}
@@ -60,8 +60,8 @@ const StyledTitle = styled.h3<StyledTitleProps>`
     css`
       font-size: ${rem(40)};
 
-      ${media.greaterThan('medium')`
+      ${media.greaterThan("medium")`
         font-size: ${rem(64)};
       `}
     `}
-`
+`;

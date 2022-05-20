@@ -1,12 +1,12 @@
-import React, { FunctionComponent } from 'react'
-import { Helmet } from 'react-helmet'
-import { useLocation } from '@reach/router'
-import { useStaticQuery, graphql } from 'gatsby'
+import React, { FunctionComponent } from "react";
+import { Helmet } from "react-helmet";
+import { useLocation } from "@reach/router";
+import { useStaticQuery, graphql } from "gatsby";
 
 export interface SEOProps {
-  title?: string
-  description?: string
-  image?: string
+  title?: string;
+  description?: string;
+  image?: string;
 }
 
 export const SEO: FunctionComponent<SEOProps> = ({
@@ -14,27 +14,27 @@ export const SEO: FunctionComponent<SEOProps> = ({
   description,
   image,
 }) => {
-  const { pathname } = useLocation()
+  const { pathname } = useLocation();
   const { site } = useStaticQuery<{
     site: {
       siteMetadata: {
-        defaultTitle: string
-        defaultDescription: string
-        siteUrl: string
-        defaultImage: string
-      }
-    }
-  }>(query)
+        defaultTitle: string;
+        defaultDescription: string;
+        siteUrl: string;
+        defaultImage: string;
+      };
+    };
+  }>(query);
 
   const { defaultTitle, defaultDescription, siteUrl, defaultImage } =
-    site.siteMetadata
+    site.siteMetadata;
 
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
-  }
+  };
 
   return (
     <Helmet title={seo.title}>
@@ -53,8 +53,8 @@ export const SEO: FunctionComponent<SEOProps> = ({
       )}
       {seo.image && <meta name="twitter:image" content={seo.image} />}
     </Helmet>
-  )
-}
+  );
+};
 
 const query = graphql`
   query SEO {
@@ -67,4 +67,4 @@ const query = graphql`
       }
     }
   }
-`
+`;
