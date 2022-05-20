@@ -1,35 +1,35 @@
-import React, { FunctionComponent } from 'react'
-import List from '../../atoms/List/List'
-import ListItem from '../../atoms/ListItem/ListItem'
-import Paragraph from '../../atoms/Paragraph/Paragraph'
-import Title from '../../atoms/Title/Title'
+import React, { FunctionComponent } from "react";
+import { List } from "../../atoms/List/List";
+import { ListItem } from "../../atoms/ListItem/ListItem";
+import { Paragraph } from "../../atoms/Paragraph/Paragraph";
+import { Title } from "../../atoms/Title/Title";
 
 const currentTools = [
-  'TypeScript/JavaScript',
-  'React/Styled Components',
-  'Vue 3',
-  'GSAP/Framer Motion',
-  'Gatsby/Apollo GraphQL',
-  'Storybook/Jest',
-  'ESLint/Stylelint/Prettier',
-  'Webpack/Rollup',
-  'Node.js/Express',
-  'NPM/Yarn',
-  'Git/Husky',
-  'GitHub Actions/Bitbucket Pipelines/CircleCI',
-]
+  "TypeScript/JavaScript",
+  "React/Styled Components",
+  "Vue 3",
+  "GSAP/Framer Motion",
+  "Next.js/Apollo GraphQL",
+  "Storybook/Jest",
+  "ESLint/Stylelint/Prettier",
+  "Webpack/Rollup",
+  "Node/NPM",
+  "GitHub Actions/Bitbucket Pipelines/CircleCI",
+];
 
 const previousTools = [
-  'Redux',
-  'Sass/React CSS Modules',
-  'PixiJS',
-  'Backbone.js',
-  'Twig/Smarty',
-  'Twitter Bootstrap/Zurb Foundation',
-  'Gulp/Grunt',
-]
+  "Gatsby",
+  "Express",
+  "Redux",
+  "Sass/(React) CSS Modules",
+  "PixiJS",
+  "Backbone.js",
+  "Twig/Smarty",
+  "Twitter Bootstrap/Zurb Foundation",
+  "Gulp/Grunt",
+];
 
-const DevelopmentSkills: FunctionComponent = () => (
+export const DevelopmentSkills: FunctionComponent = () => (
   <>
     <Title>Development skills</Title>
     <Paragraph>What I&apos;m working with:</Paragraph>
@@ -45,6 +45,4 @@ const DevelopmentSkills: FunctionComponent = () => (
       ))}
     </List>
   </>
-)
-
-export default DevelopmentSkills
+);

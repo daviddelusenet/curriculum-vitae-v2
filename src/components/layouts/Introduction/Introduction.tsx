@@ -1,8 +1,8 @@
-import React, { FunctionComponent } from 'react'
-import Paragraph from '../../atoms/Paragraph/Paragraph'
-import Title from '../../atoms/Title/Title'
+import React, { FunctionComponent } from "react";
+import { Paragraph } from "../../atoms/Paragraph/Paragraph";
+import { Title } from "../../atoms/Title/Title";
 
-const Introduction: FunctionComponent = () => (
+export const Introduction: FunctionComponent = () => (
   <>
     <Title>Introduction</Title>
     <Paragraph>
@@ -46,10 +46,8 @@ const Introduction: FunctionComponent = () => (
       assignment at a company called Sportlink, which went really well. However,
       I was missing the inspiration, creativity and comradery most digital
       agencies had to offer. Because of this I left Cygni and went back to the
-      creative sector: I joined Code d&apos;Azur as a senior front-end
+      creative sector: I joined code d&apos;azur as a senior front-end
       developer.
     </Paragraph>
   </>
-)
-
-export default Introduction
+);

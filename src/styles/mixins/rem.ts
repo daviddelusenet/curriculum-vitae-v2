@@ -1,2 +1,2 @@
-export default (pixels: number, baseSize = 16): string =>
-  `${pixels / baseSize}rem`
+export const rem = (pixels: number, baseSize = 16): string =>
+  `${pixels / baseSize}rem`;

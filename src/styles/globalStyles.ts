@@ -1,7 +1,7 @@
-import { createGlobalStyle } from 'styled-components'
-import reset from 'styled-reset-advanced'
+import { createGlobalStyle } from "styled-components";
+import reset from "styled-reset-advanced";
 
-export default createGlobalStyle`
+export const GlobalStyles = createGlobalStyle`
   ${reset}
 
   * {
@@ -25,4 +25,4 @@ export default createGlobalStyle`
     text-decoration: none;
     color: ${({ theme }) => theme.primaryTextColor};
   }
-`
+`;

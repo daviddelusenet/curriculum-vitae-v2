@@ -1,1 +1,1 @@
-declare module 'styled-reset-advanced'
+declare module "styled-reset-advanced";

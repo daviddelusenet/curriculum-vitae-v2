@@ -1,12 +1,20 @@
-import React, { FunctionComponent, ReactNode } from 'react'
-import { StyledPageError } from './PageError.sc'
+import React, { FunctionComponent, ReactNode } from "react";
+import media from "styled-media-query";
+import { rem } from "../../../styles/mixins/rem";
+import styled from "styled-components";
 
-interface PageErrorProps {
-  children: ReactNode
+export interface PageErrorProps {
+  children: ReactNode;
 }
 
-const PageError: FunctionComponent<PageErrorProps> = ({ children }) => (
+export const PageError: FunctionComponent<PageErrorProps> = ({ children }) => (
   <StyledPageError>{children}</StyledPageError>
-)
+);
 
-export default PageError
+const StyledPageError = styled.div`
+  padding: ${rem(60)} 0 ${rem(40)};
+
+  ${media.greaterThan("medium")`
+    padding: ${rem(80)} 0 ${rem(64)};
+  `}
+`;

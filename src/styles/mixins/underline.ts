@@ -1,5 +1,5 @@
 // This mixin is based on https://eager.io/blog/smarter-link-underlines/
-import { css, FlattenSimpleInterpolation } from 'styled-components'
+import { css, FlattenSimpleInterpolation } from "styled-components";
 
 export const textShadowToCropUnderline = (
   backgroundColor: string
@@ -11,22 +11,22 @@ export const textShadowToCropUnderline = (
     0.12em 0 ${backgroundColor}, -0.12em 0 ${backgroundColor},
     0.15em 0 ${backgroundColor}, -0.15em 0 ${backgroundColor},
     0.18em 0 ${backgroundColor}, -0.18em 0 ${backgroundColor};
-`
+`;
 
 export const animateUnderline = (): FlattenSimpleInterpolation => css`
   background-size: 0.05em 1px, 0.05em 1px, 100% 1px;
-`
+`;
 
-export default ({
+export const underline = ({
   animate = false,
   backgroundColor,
   color,
-  underlinePosition = '88%',
+  underlinePosition = "88%",
 }: {
-  animate?: boolean
-  backgroundColor: string
-  color: string
-  underlinePosition?: string
+  animate?: boolean;
+  backgroundColor: string;
+  color: string;
+  underlinePosition?: string;
 }): FlattenSimpleInterpolation => css`
   ${textShadowToCropUnderline(backgroundColor)}
   background-image: linear-gradient(${backgroundColor}, ${backgroundColor}),
@@ -43,4 +43,4 @@ export default ({
     : css`
         background-size: 0.05em 1px, 0.05em 1px, 100% 1px;
       `}
-`
+`;

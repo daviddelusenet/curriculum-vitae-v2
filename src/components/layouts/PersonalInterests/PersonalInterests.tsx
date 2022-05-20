@@ -1,8 +1,8 @@
-import React, { FunctionComponent } from 'react'
-import Paragraph from '../../atoms/Paragraph/Paragraph'
-import Title from '../../atoms/Title/Title'
+import React, { FunctionComponent } from "react";
+import { Paragraph } from "../../atoms/Paragraph/Paragraph";
+import { Title } from "../../atoms/Title/Title";
 
-const PersonalInterests: FunctionComponent = () => (
+export const PersonalInterests: FunctionComponent = () => (
   <>
     <Title>Personal interests</Title>
     <Paragraph>
@@ -20,6 +20,4 @@ const PersonalInterests: FunctionComponent = () => (
       video games once in a while.
     </Paragraph>
   </>
-)
-
-export default PersonalInterests
+);
