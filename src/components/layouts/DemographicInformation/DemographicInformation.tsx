@@ -23,7 +23,7 @@ export const DemographicInformation: FunctionComponent = () => (
           data={{
             "Date of birth": "June 24, 1992",
             Nationality: "Dutch",
-            "Current location": "Amsterdam",
+            "Current location": "Oostzaan",
             "Drivers license": "B",
           }}
         />
@@ -47,9 +47,6 @@ export const DemographicInformation: FunctionComponent = () => (
           >
             <IconMail />
           </ExternalLink>
-          {/* <ExternalLink href="tel:+31650469600" title="You used to call me on my cellphone">
-                        <img src={iconPhone} />
-                    </ExternalLink> */}
         </Icons>
       </InformationWrapper>
       <AvatarWrapper>

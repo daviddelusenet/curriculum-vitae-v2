@@ -49,5 +49,9 @@ export const Introduction: FunctionComponent = () => (
       creative sector: I joined code d&apos;azur as a senior front-end
       developer.
     </Paragraph>
+    <Paragraph>
+      After two fun years at code d&apos;azur I got approached for a lead role
+      at Touchtribe and decided to go for it.
+    </Paragraph>
   </>
 );
