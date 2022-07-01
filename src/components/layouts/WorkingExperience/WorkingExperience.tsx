@@ -14,9 +14,9 @@ export const WorkingExperience: FunctionComponent = () => (
       </ExternalLink>
     </Subtitle>
     <Paragraph>
-      The last stop on my front-end journey: Touchtribe. Got an amazing
-      opportunity to join a rapidly growing company as a lead developer. This
-      opportunity was too good to pass up!
+      The last stop on my front-end developer journey: Touchtribe. Got an
+      amazing opportunity to join a rapidly growing company as a lead developer.
+      This was an opportunity too good to pass up!
     </Paragraph>
     <Subtitle date="July 2020 - July 2022">
       senior front-end developer at
