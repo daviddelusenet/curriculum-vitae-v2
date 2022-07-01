@@ -23,7 +23,7 @@ export const DemographicInformation: FunctionComponent = () => (
           data={{
             "Date of birth": "June 24, 1992",
             Nationality: "Dutch",
-            "Current location": "Amsterdam",
+            "Current location": "Oostzaan",
             "Drivers license": "B",
           }}
         />

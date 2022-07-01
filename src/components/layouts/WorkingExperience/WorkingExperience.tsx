@@ -7,15 +7,26 @@ import { Title } from "../../atoms/Title/Title";
 export const WorkingExperience: FunctionComponent = () => (
   <>
     <Title>Working experience</Title>
-    <Subtitle date="July 2020 - present">
+    <Subtitle date="July 2022 - present">
+      lead front-end developer at
+      <ExternalLink hasLeadingSpace href="https://touchtribe.nl/">
+        Touchtribe
+      </ExternalLink>
+    </Subtitle>
+    <Paragraph>
+      The last stop on my front-end journey: Touchtribe. Got an amazing
+      opportunity to join a rapidly growing company as a lead developer. This
+      opportunity was too good to pass up!
+    </Paragraph>
+    <Subtitle date="July 2020 - July 2022">
       senior front-end developer at
       <ExternalLink hasLeadingSpace href="https://codedazur.com/">
         code d&apos;azur
       </ExternalLink>
     </Subtitle>
     <Paragraph>
-      Code d&apos;azur is a digital brand and experience company with offices in
-      Amsterdam, Barcelona, Dubai and Austin, Texas. Code d&apos;azur
+      code d&apos;azur is a digital brand and experience company with offices in
+      Amsterdam, Barcelona, Dubai and Austin, Texas. code d&apos;azur
       specializes itself in consulting and transformation, platforms, products
       and services, plus content and campaigns that help our clients stand out
       from the crowd and fit into their customers&apos; lives.
