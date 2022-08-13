@@ -10,11 +10,13 @@ const currentTools = [
   "Vue 3",
   "GSAP/Framer Motion",
   "Next.js/Apollo GraphQL",
-  "Storybook/Jest",
+  "Storybook",
+  "Jest",
   "ESLint/Stylelint/Prettier",
   "Webpack/Rollup",
   "Node/NPM",
   "GitHub Actions/Bitbucket Pipelines/CircleCI",
+  "Contentful",
 ];
 
 const previousTools = [

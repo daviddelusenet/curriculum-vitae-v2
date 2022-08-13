@@ -50,8 +50,10 @@ export const Introduction: FunctionComponent = () => (
       developer.
     </Paragraph>
     <Paragraph>
-      After two fun years at code d&apos;azur I got approached for a lead role
-      at Touchtribe and decided to go for it.
+      After two fun years at code d&apos;azur I was approached for a lead role
+      at Touchtribe and decided to go for it. At Touchtribe I&apos;m the lead
+      developer on multiple projects which is really improving my management
+      skills.
     </Paragraph>
   </>
 );
