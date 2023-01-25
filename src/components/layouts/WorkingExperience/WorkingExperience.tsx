@@ -7,7 +7,13 @@ import { Title } from "../../atoms/Title/Title";
 export const WorkingExperience: FunctionComponent = () => (
   <>
     <Title>Working experience</Title>
-    <Subtitle date="July 2022 - present">
+    <Subtitle date="December 2022 - present">
+      Team lead front-end developer at
+      <ExternalLink hasLeadingSpace href="https://touchtribe.nl/">
+        Touchtribe
+      </ExternalLink>
+    </Subtitle>
+    <Subtitle date="July 2022 - December 2022">
       lead front-end developer at
       <ExternalLink hasLeadingSpace href="https://touchtribe.nl/">
         Touchtribe
@@ -17,6 +23,10 @@ export const WorkingExperience: FunctionComponent = () => (
       The last stop on my front-end developer journey: Touchtribe. Got an
       amazing opportunity to join a rapidly growing company as a lead developer.
       This was an opportunity too good to pass up!
+    </Paragraph>
+    <Paragraph>
+      After half a year I got promoted to a team lead which means I&apos;m now
+      responsible for guiding six developers.
     </Paragraph>
     <Subtitle date="July 2020 - July 2022">
       senior front-end developer at
