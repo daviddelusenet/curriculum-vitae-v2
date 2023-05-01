@@ -7,30 +7,40 @@ import { Title } from "../../atoms/Title/Title";
 export const WorkingExperience: FunctionComponent = () => (
   <>
     <Title>Working experience</Title>
-    <Subtitle date="December 2022 - present">
-      Team lead front-end developer at
-      <ExternalLink hasLeadingSpace href="https://touchtribe.nl/">
+    <Subtitle date="May 2023 - present">
+      senior front-end developer at
+      <ExternalLink hasLeadingSpace href="//www.deptagency.com/">
+        DEPT®
+      </ExternalLink>
+    </Subtitle>
+    <Paragraph>
+      DEPT® is one of the best (and biggest) agencies in the world. Over 4000
+      people working on the coolest projects known to man. Super excited about
+      joining this company!
+    </Paragraph>
+    <Subtitle date="December 2022 - May 2023">
+      team lead front-end developer at
+      <ExternalLink hasLeadingSpace href="//touchtribe.nl/">
         Touchtribe
       </ExternalLink>
     </Subtitle>
     <Subtitle date="July 2022 - December 2022">
       lead front-end developer at
-      <ExternalLink hasLeadingSpace href="https://touchtribe.nl/">
+      <ExternalLink hasLeadingSpace href="//touchtribe.nl/">
         Touchtribe
       </ExternalLink>
     </Subtitle>
     <Paragraph>
-      The last stop on my front-end developer journey: Touchtribe. Got an
-      amazing opportunity to join a rapidly growing company as a lead developer.
-      This was an opportunity too good to pass up!
+      In July 2022 I got an amazing opportunity to join a rapidly growing
+      company as a lead developer. This was an opportunity too good to pass up!
     </Paragraph>
     <Paragraph>
-      After half a year I got promoted to a team lead which means I&apos;m now
+      After half a year I got promoted to a team lead which means I was
       responsible for guiding six developers.
     </Paragraph>
     <Subtitle date="July 2020 - July 2022">
       senior front-end developer at
-      <ExternalLink hasLeadingSpace href="https://codedazur.com/">
+      <ExternalLink hasLeadingSpace href="//codedazur.com/">
         code d&apos;azur
       </ExternalLink>
     </Subtitle>
@@ -44,19 +54,11 @@ export const WorkingExperience: FunctionComponent = () => (
     <Paragraph>
       At code d&apos;azur I already worked on multiple projects: our new
       portfolio website,
-      <ExternalLink
-        hasLeadingSpace
-        hasTrailingSpace
-        href="https://knit.kvadrat.dk/"
-      >
+      <ExternalLink hasLeadingSpace hasTrailingSpace href="//knit.kvadrat.dk/">
         Knit! Kvadrat
       </ExternalLink>
       ,
-      <ExternalLink
-        hasLeadingSpace
-        hasTrailingSpace
-        href="https://polestar.com/"
-      >
+      <ExternalLink hasLeadingSpace hasTrailingSpace href="//polestar.com/">
         Polestar
       </ExternalLink>
       and Philips. The Philips project was the first project where I used Vue 3.
@@ -66,7 +68,7 @@ export const WorkingExperience: FunctionComponent = () => (
       Currently I&apos;m working for another cool client, Lotus cars. We&apos;re
       developing the part of their website which is about their newest full
       electric car, the
-      <ExternalLink hasLeadingSpace href="https://lotuscars.com/eletre">
+      <ExternalLink hasLeadingSpace href="//lotuscars.com/eletre">
         Eletre
       </ExternalLink>
       . I&apos;m the lead developer on this project and it&apos;s going well so
@@ -74,7 +76,7 @@ export const WorkingExperience: FunctionComponent = () => (
     </Paragraph>
     <Subtitle date="August 2019 - July 2020">
       front-end developer consultant at
-      <ExternalLink hasLeadingSpace href="https://cygnigroup.com/nl/">
+      <ExternalLink hasLeadingSpace href="//cygnigroup.com/nl/">
         Cygni NL
       </ExternalLink>
     </Subtitle>
@@ -102,7 +104,7 @@ export const WorkingExperience: FunctionComponent = () => (
       developed a React UI kit which we published as a
       <ExternalLink
         hasLeadingSpace
-        href="https://www.npmjs.com/package/dexels-ui-kit"
+        href="//www.npmjs.com/package/dexels-ui-kit"
       >
         NPM package
       </ExternalLink>
@@ -127,7 +129,7 @@ export const WorkingExperience: FunctionComponent = () => (
     </Paragraph>
     <Subtitle date="January 2018 - August 2019">
       front-end developer at
-      <ExternalLink hasLeadingSpace href="https://random.studio/">
+      <ExternalLink hasLeadingSpace href="//random.studio/">
         Random Studio
       </ExternalLink>
     </Subtitle>
@@ -148,7 +150,7 @@ export const WorkingExperience: FunctionComponent = () => (
       uses in their
       <ExternalLink
         hasLeadingSpace
-        href="https://www.youtube.com/watch?v=X3fPWN-nt4o"
+        href="//www.youtube.com/watch?v=X3fPWN-nt4o"
       >
         Digital Showroom
       </ExternalLink>
@@ -170,7 +172,7 @@ export const WorkingExperience: FunctionComponent = () => (
       <ExternalLink
         hasLeadingSpace
         hasTrailingSpace
-        href="https://fashionunited.com/news/retail/the-store-of-the-future-inside-tommy-hilfiger-s-amsterdam-store/2018120730514"
+        href="//fashionunited.com/news/retail/the-store-of-the-future-inside-tommy-hilfiger-s-amsterdam-store/2018120730514"
       >
         Store of the Future
       </ExternalLink>
@@ -183,7 +185,7 @@ export const WorkingExperience: FunctionComponent = () => (
     </Paragraph>
     <Subtitle date="February 2016 - January 2018">
       (intern) front-end developer at
-      <ExternalLink hasLeadingSpace href="https://momkai.com">
+      <ExternalLink hasLeadingSpace href="//momkai.com">
         Momkai
       </ExternalLink>
     </Subtitle>
@@ -199,7 +201,7 @@ export const WorkingExperience: FunctionComponent = () => (
       configuration changes to your selected bike. This configurator is built
       using Backbone.js and vanilla JavaScript and the styling is done with
       SCSS. I also worked on several other components of the
-      <ExternalLink hasLeadingSpace href="https://vanmoof.com">
+      <ExternalLink hasLeadingSpace href="//vanmoof.com">
         VanMoof website
       </ExternalLink>
       .
@@ -212,7 +214,7 @@ export const WorkingExperience: FunctionComponent = () => (
     </Paragraph>
     <Paragraph>
       The last project I worked on before I left Momkai is their
-      <ExternalLink hasLeadingSpace href="https://momkai.com">
+      <ExternalLink hasLeadingSpace href="//momkai.com">
         portfolio website
       </ExternalLink>
       . I did a lot of work on this project with React and GSAP. Since the
@@ -224,7 +226,7 @@ export const WorkingExperience: FunctionComponent = () => (
     </Paragraph>
     <Subtitle date="March 2012 - January 2016">
       (internship) front-end developer at
-      <ExternalLink hasLeadingSpace href="https://atabix.com">
+      <ExternalLink hasLeadingSpace href="//atabix.com">
         Atabix Solutions
       </ExternalLink>
     </Subtitle>

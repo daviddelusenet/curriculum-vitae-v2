@@ -51,9 +51,22 @@ export const Introduction: FunctionComponent = () => (
     </Paragraph>
     <Paragraph>
       After two fun years at code d&apos;azur I was approached for a lead role
-      at Touchtribe and decided to go for it. At Touchtribe I&apos;m the lead
-      developer on multiple projects which is really improving my management
+      at Touchtribe and decided to go for it. At Touchtribe I was the lead
+      developer on multiple projects which was really improving my management
       skills.
+    </Paragraph>
+    <Paragraph>
+      Six months after I started at Touchtribe I was promoted to a team lead.
+      This basically meant I would keep the same responsibilities as before but
+      I would also start guiding a team of developers. In my case my team
+      consisted entirely of junior developers which were a lot of fun to guide.
+    </Paragraph>
+    <Paragraph>
+      Although I really liked my role at Touchtribe, the projects I was working
+      on didn&apos;t grant me the personal satisfaction I crave. Because of this
+      I decided to apply at DEPT®, one of the best agencies in the world,
+      working for the coolest clients. Luckily for me I got hired and in July
+      2023 I started at DEPT® as a senior front-end developer.
     </Paragraph>
   </>
 );

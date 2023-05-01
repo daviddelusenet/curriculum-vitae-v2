@@ -16,7 +16,7 @@ const currentTools = [
   "Webpack/Rollup",
   "Node/NPM",
   "GitHub Actions/Bitbucket Pipelines/CircleCI",
-  "Contentful",
+  "Contentful/Storyblok",
 ];
 
 const previousTools = [
@@ -34,7 +34,7 @@ const previousTools = [
 export const DevelopmentSkills: FunctionComponent = () => (
   <>
     <Title>Development skills</Title>
-    <Paragraph>What I&apos;m working with:</Paragraph>
+    <Paragraph>What I&apos;m currently working with:</Paragraph>
     <List>
       {currentTools.map((tool) => (
         <ListItem key={tool}>{tool}</ListItem>
