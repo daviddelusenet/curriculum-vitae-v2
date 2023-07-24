@@ -12,7 +12,7 @@ export const PersonalInterests: FunctionComponent = () => (
     </Paragraph>
     <Paragraph>
       When I&apos;m not on a basketball court, skateboard or yoga mat, I&apos;m
-      spending most of my time with my girlfriend and our two-year old son Eden
+      spending most of my time with my girlfriend and our four-year old son Eden
       👼.
     </Paragraph>
     <Paragraph>
