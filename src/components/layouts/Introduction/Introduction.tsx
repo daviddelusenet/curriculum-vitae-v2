@@ -53,12 +53,12 @@ export const Introduction: FunctionComponent = () => (
       After two fun years at code d&apos;azur I was approached for a lead role
       at Touchtribe and decided to go for it. At Touchtribe I was the lead
       developer on multiple projects which was really improving my management
-      skills.
+      and leadership skills.
     </Paragraph>
     <Paragraph>
       Six months after I started at Touchtribe I was promoted to a team lead.
       This basically meant I would keep the same responsibilities as before but
-      I would also start guiding a team of developers. In my case my team
+      I would also start leading a team of developers. In my case my team
       consisted entirely of junior developers which were a lot of fun to guide.
     </Paragraph>
     <Paragraph>

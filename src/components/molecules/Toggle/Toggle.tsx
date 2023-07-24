@@ -11,13 +11,13 @@ export const Toggle: FunctionComponent<ToggleProps> = ({
   isChecked,
   onChange,
 }) => (
-  <StyledToggle isChecked={isChecked}>
+  <StyledToggle $isChecked={isChecked}>
     <input checked={isChecked} onChange={onChange} type="checkbox" />
   </StyledToggle>
 );
 
 interface StyledToggleProps {
-  isChecked: boolean;
+  $isChecked: boolean;
 }
 
 const StyledToggle = styled.div<StyledToggleProps>`
@@ -52,8 +52,8 @@ const StyledToggle = styled.div<StyledToggleProps>`
     transition: transform 200ms ease-out;
   }
 
-  ${({ isChecked }) =>
-    isChecked &&
+  ${({ $isChecked }) =>
+    $isChecked &&
     css`
       background-color: ${({ theme }) => theme.primaryAccentColor};
 

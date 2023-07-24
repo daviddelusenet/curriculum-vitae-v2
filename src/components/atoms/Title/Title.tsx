@@ -22,21 +22,21 @@ export const Title: FunctionComponent<TitleProps> = ({
   size = TitleSizes.small,
   tag = "h3",
 }) => (
-  <StyledTitle as={tag} hasUnderline={hasUnderline} size={size}>
+  <StyledTitle $hasUnderline={hasUnderline} as={tag} size={size}>
     {children}
   </StyledTitle>
 );
 
 interface StyledTitleProps {
-  hasUnderline: boolean;
+  $hasUnderline: boolean;
   size: TitleSizes;
 }
 
 const StyledTitle = styled.h3<StyledTitleProps>`
   font-family: ${({ theme }) => theme.secondaryFont};
 
-  ${({ hasUnderline, theme }) =>
-    hasUnderline &&
+  ${({ $hasUnderline, theme }) =>
+    $hasUnderline &&
     underline({
       backgroundColor: theme.primaryBackgroundColor,
       color: theme.primaryTextColor,
