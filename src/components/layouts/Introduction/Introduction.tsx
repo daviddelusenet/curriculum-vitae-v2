@@ -18,7 +18,7 @@ export const Introduction: FunctionComponent = () => (
       where I would acquire most of my basic development skills. Back in 2012,
       Atabix was a young but quickly growing company. This gave me the
       opportunity to have a lot of responsibility and to kickstart my career as
-      a front-end developer.
+      a frontend developer.
     </Paragraph>
     <Paragraph>
       After working at Atabix for almost four years, it was time to wrap up my
@@ -42,11 +42,11 @@ export const Introduction: FunctionComponent = () => (
       Cygni.
     </Paragraph>
     <Paragraph>
-      At Cygni I was working as a consultant front-end developer and I did one
+      At Cygni I was working as a consultant frontend developer and I did one
       assignment at a company called Sportlink, which went really well. However,
       I was missing the inspiration, creativity and comradery most digital
       agencies had to offer. Because of this I left Cygni and went back to the
-      creative sector: I joined code d&apos;azur as a senior front-end
+      creative sector: I joined code d&apos;azur as a senior frontend
       developer.
     </Paragraph>
     <Paragraph>
@@ -66,7 +66,7 @@ export const Introduction: FunctionComponent = () => (
       on didn&apos;t grant me the personal satisfaction I crave. Because of this
       I decided to apply at DEPT®, one of the best agencies in the world,
       working for the coolest clients. Luckily for me I got hired and in July
-      2023 I started at DEPT® as a senior front-end developer.
+      2023 I started at DEPT® as a senior frontend developer.
     </Paragraph>
   </>
 );

@@ -16,7 +16,7 @@ export const DemographicInformation: FunctionComponent = () => (
     <Title hasUnderline={false} size={TitleSizes.large} tag="h1">
       David de Lusenet
     </Title>
-    <Occupation>Lead front-end developer</Occupation>
+    <Occupation>Frontend engineer</Occupation>
     <Inner>
       <InformationWrapper>
         <DemographicInformationTable

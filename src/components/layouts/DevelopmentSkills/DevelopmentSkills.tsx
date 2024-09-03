@@ -5,30 +5,15 @@ import { Paragraph } from "../../atoms/Paragraph/Paragraph";
 import { Title } from "../../atoms/Title/Title";
 
 const currentTools = [
-  "TypeScript/JavaScript",
-  "React/Styled Components",
-  "Vue 3",
+  "TypeScript",
+  "Next.js",
+  "Vanilla Extract JS/Styled Components/CSS Modules",
   "GSAP/Framer Motion",
-  "Next.js/Apollo GraphQL",
   "Storybook",
   "Jest",
   "ESLint/Stylelint/Prettier",
-  "Webpack/Rollup",
-  "Node/NPM",
   "GitHub Actions/Bitbucket Pipelines/CircleCI",
   "Contentful/Storyblok",
-];
-
-const previousTools = [
-  "Gatsby",
-  "Express",
-  "Redux",
-  "Sass/(React) CSS Modules",
-  "PixiJS",
-  "Backbone.js",
-  "Twig/Smarty",
-  "Twitter Bootstrap/Zurb Foundation",
-  "Gulp/Grunt",
 ];
 
 export const DevelopmentSkills: FunctionComponent = () => (
@@ -37,12 +22,6 @@ export const DevelopmentSkills: FunctionComponent = () => (
     <Paragraph>What I&apos;m currently working with:</Paragraph>
     <List>
       {currentTools.map((tool) => (
-        <ListItem key={tool}>{tool}</ListItem>
-      ))}
-    </List>
-    <Paragraph>What I was working with:</Paragraph>
-    <List>
-      {previousTools.map((tool) => (
         <ListItem key={tool}>{tool}</ListItem>
       ))}
     </List>
