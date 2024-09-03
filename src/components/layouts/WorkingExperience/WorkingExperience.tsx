@@ -67,8 +67,8 @@ export const WorkingExperience: FunctionComponent = () => (
     </Subtitle>
     <Paragraph>
       Cygni is an IT consultancy that strives to be the premier provider of
-      innovative digital solutions. Cygni's team of consultants bring a wealth
-      of expertise to the table, including fullstack, frontend, mobile
+      innovative digital solutions. Cygni&apos;s team of consultants bring a
+      wealth of expertise to the table, including fullstack, frontend, mobile
       development, UX design, and project management. They are committed to
       helping their customers create high-quality, cost-effective solutions that
       meet their needs.

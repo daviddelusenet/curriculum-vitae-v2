@@ -46,8 +46,7 @@ export const Introduction: FunctionComponent = () => (
       assignment at a company called Sportlink, which went really well. However,
       I was missing the inspiration, creativity and comradery most digital
       agencies had to offer. Because of this I left Cygni and went back to the
-      creative sector: I joined code d&apos;azur as a senior frontend
-      developer.
+      creative sector: I joined code d&apos;azur as a senior frontend developer.
     </Paragraph>
     <Paragraph>
       After two fun years at code d&apos;azur I was approached for a lead role
