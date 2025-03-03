@@ -15,7 +15,10 @@ export const WorkingExperience: FunctionComponent = () => (
     </Subtitle>
     <Paragraph>
       Bird helps marketing, service, and engineering teams create personalized
-      interactions that drive customer growth.
+      interactions that drive customer growth. At Bird I was part of multiple
+      teams working on different parts of the Bird CRM. The techstack I&apos;
+      working with is React/Next.js with TypeScript. We use Tailwind CSS for
+      styling purposes.
     </Paragraph>
     <Subtitle date="May 2023 - August 2024">
       senior frontend developer at
