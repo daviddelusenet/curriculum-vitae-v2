@@ -5,12 +5,11 @@ import { Paragraph } from "../../atoms/Paragraph/Paragraph";
 import { Title } from "../../atoms/Title/Title";
 
 const currentTools = [
-  "TypeScript",
-  "Next.js",
-  "Vanilla Extract JS/Styled Components/CSS Modules",
+  "React/Next.js with TypeScript",
+  "Tailwind CSS/Vanilla Extract JS/Styled Components/CSS Modules",
+  "Jest/Vitest/React Testing Library",
   "GSAP/Framer Motion",
   "Storybook",
-  "Jest",
   "ESLint/Stylelint/Prettier",
   "GitHub Actions/Bitbucket Pipelines/CircleCI",
   "Contentful/Storyblok",
