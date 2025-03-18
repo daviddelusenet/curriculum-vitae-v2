@@ -41,7 +41,7 @@ export const DemographicInformation: FunctionComponent = () => (
             <IconLinkedIn />
           </ExternalLink>
           <ExternalLink
-            href="mailto:david@lusenet.nl"
+            href="mailto:me@daviddeluse.net"
             target="_self"
             title="Send me an email"
           >

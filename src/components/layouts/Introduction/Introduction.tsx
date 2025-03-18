@@ -7,7 +7,7 @@ export const Introduction: FunctionComponent = () => (
     <Title>Introduction</Title>
     <Paragraph>
       I&apos;m a senior frontend engineer with over thirteen years of hands-on
-      experience. I&apos;ve sucessfully worked in multidisciplinary teams
+      experience. I&apos;ve successfully worked in multidisciplinary teams
       containing multiple nationalities. Operating as an one-man army also
       isn&apos;t a problem for me.
     </Paragraph>
@@ -17,6 +17,10 @@ export const Introduction: FunctionComponent = () => (
       clean and to the point. Currently my expertise is React/Next.js in
       combination with TypeScript but I&apos;m open to exploring new
       technologies.
+    </Paragraph>
+    <Paragraph>
+      I&apos;m a Dutch native speaker but I also have a strong command of the
+      English language.
     </Paragraph>
   </>
 );
