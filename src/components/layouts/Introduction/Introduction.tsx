@@ -13,13 +13,19 @@ export const Introduction: FunctionComponent = () => (
     </Paragraph>
     <Paragraph>
       Because of my extensive experience working at digital agencies I&apos;ve
-      developed a strong eye for detail. I work fast and precise and my code is
-      clean and to the point. Currently my expertise is React/Next.js in
-      combination with TypeScript but I&apos;m open to exploring new
+      developed a strong eye for detail and design. I work fast and precise and
+      my code is clean and to the point. Currently my expertise is React/Next.js
+      in combination with TypeScript but I&apos;m open to exploring new
       technologies.
     </Paragraph>
     <Paragraph>
-      I&apos;m a Dutch native speaker but I also have a strong command of the
+      Besides my TypeScript experience I&apos;m also experienced with a lot of
+      different styling solutions, including: CSS, Sass, Styled Components,
+      vanilla-extract, Stitches and Tailwind CSS. I can also work with testing
+      libraries like Vitest, Jest and Cypress.
+    </Paragraph>
+    <Paragraph>
+      I&apos;m a native Dutch speaker but I also have a strong command of the
       English language.
     </Paragraph>
   </>
