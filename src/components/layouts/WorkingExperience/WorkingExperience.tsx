@@ -14,8 +14,21 @@ export const WorkingExperience: FunctionComponent = () => (
       </ExternalLink>
     </Subtitle>
     <Paragraph>
-      Bird helps marketing, service, and engineering teams create personalized
-      interactions that drive customer growth.
+      At Bird I greatly improved my product thinking and I also got used to
+      working on a huge codebase. Initially I was part of the business
+      infrastructure team, which was responsible for helping out where ever help
+      was needed.
+    </Paragraph>
+    <Paragraph>
+      After that I was part of the admin team and later on even the last
+      developer remaining in this team. During this time I worked on our
+      internal sales tool, used by all sales representatives at Bird. I worked
+      closely with the VP of Strategy and Ops to determine which features needed
+      to be built.
+    </Paragraph>
+    <Paragraph>
+      The last team I was a part of was the HR team, working on the new HR
+      product Bird is releasing.
     </Paragraph>
     <Subtitle date="May 2023 - August 2024">
       senior frontend developer at
@@ -24,10 +37,10 @@ export const WorkingExperience: FunctionComponent = () => (
       </ExternalLink>
     </Subtitle>
     <Paragraph>
-      DEPT® is pioneering tech/marketing to help their clients stay ahead. As a
-      full-service digital agency, their team of 4,000+ digital specialists
-      across 30+ locations on five continents delivers pioneering work on a
-      global scale with a boutique culture.
+      DEPT® is one of the biggest agencies worldwide and it was a joy working
+      there. I worked on multiple exciting projects, all of them built with
+      React and Next.js. Even though my official role was a senior developer, in
+      practice I was the lead developer on most projects I worked on.
     </Paragraph>
     <Subtitle date="December 2022 - May 2023">
       team lead frontend developer at
@@ -42,9 +55,10 @@ export const WorkingExperience: FunctionComponent = () => (
       </ExternalLink>
     </Subtitle>
     <Paragraph>
-      Touchtribe builds digital platforms that help businesses and brands grow.
-      They achieve this by using cloud native and headless software which they
-      shape into modern composable architectures.
+      I started at Touchtribe as lead frontend developer and later got promoted
+      to team lead. As a team lead I was guiding a team of five frontend
+      developers. I had biweekly check-ins with these developers and helped them
+      grow professionally.
     </Paragraph>
     <Subtitle date="July 2020 - July 2022">
       senior frontend developer at
@@ -53,11 +67,10 @@ export const WorkingExperience: FunctionComponent = () => (
       </ExternalLink>
     </Subtitle>
     <Paragraph>
-      code d&apos;azur is a digital brand and experience company with offices in
-      Amsterdam, Barcelona, Dubai and Austin, Texas. code d&apos;azur
-      specializes itself in consulting and transformation, platforms, products
-      and services, plus content and campaigns that help their clients stand out
-      from the crowd and fit into their customers&apos; lives.
+      Since I was missing the comradery digital agencies had to offer, I decided
+      to join code d&apos;azur. Here I started working fulltime with
+      technologies like Gatsby and Next.js. I also worked for numerous clients,
+      like Philips, Lotus Cars, Knit! Kvadrat and Polestar.
     </Paragraph>
     <Subtitle date="August 2019 - July 2020">
       frontend developer consultant at
@@ -66,12 +79,15 @@ export const WorkingExperience: FunctionComponent = () => (
       </ExternalLink>
     </Subtitle>
     <Paragraph>
-      Cygni is an IT consultancy that strives to be the premier provider of
-      innovative digital solutions. Cygni&apos;s team of consultants bring a
-      wealth of expertise to the table, including fullstack, frontend, mobile
-      development, UX design, and project management. They are committed to
-      helping their customers create high-quality, cost-effective solutions that
-      meet their needs.
+      When I joined Cygni I actually was the first developer they hired in the
+      Netherlands. After my hiring, we wanted to grow the team, a process which
+      I was very involved in. I was part of a lot of interviews, greatly
+      improving my soft skills.
+    </Paragraph>
+    <Paragraph>
+      During my time at Cygni I did one project: I helped Sportlink build the
+      software they sell to sport associations to manage their clubs/teams. We
+      used React and Styled Components for this project.
     </Paragraph>
     <Subtitle date="January 2018 - August 2019">
       frontend developer at
@@ -80,9 +96,9 @@ export const WorkingExperience: FunctionComponent = () => (
       </ExternalLink>
     </Subtitle>
     <Paragraph>
-      Random is an experience design studio and Certified B Corporation® based
-      in Amsterdam and Paris, bridging the physical and digital in unexpected
-      ways.
+      At Random Studio I really started to get experienced with React. I did a
+      lot of cool projects there, including one of my most favorite ones of all
+      time, a custom webshop for Raf Simons.
     </Paragraph>
     <Subtitle date="February 2016 - January 2018">
       (intern) frontend developer at
@@ -91,11 +107,10 @@ export const WorkingExperience: FunctionComponent = () => (
       </ExternalLink>
     </Subtitle>
     <Paragraph>
-      With memberful design, Momkai finds creative solutions that build lasting
-      connections. They bring people together - through brand strategy,
-      award-winning holistic design, and clear communication - to create
-      meaningful change. Break through the noise and inspire action. Because
-      together, we redefine shared success.
+      I started at Momkai as an intern frontend developer as part of my
+      graduation internship. After successfully finishing this internship and
+      graduating, I continued working there as a frontend developer. I primarily
+      worked on projects with Backbone.js and React.
     </Paragraph>
     <Subtitle date="March 2012 - January 2016">
       (internship) frontend developer at
@@ -104,9 +119,9 @@ export const WorkingExperience: FunctionComponent = () => (
       </ExternalLink>
     </Subtitle>
     <Paragraph>
-      Atabix delivers high-touch SaaS solutions for the government market. As a
-      knowledge partner and supplier of SaaS solutions, they understand the
-      changing government market like no other.
+      Working at Atabix was my first frontend developer job. During my time at
+      Atabix I worked on websites for a lot of different clients, ranging from
+      Boldking to Daarnhouwer. I primarily used Twig templates and jQuery.
     </Paragraph>
   </>
 );
