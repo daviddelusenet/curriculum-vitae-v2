@@ -13,6 +13,9 @@ export const WorkingExperience: FunctionComponent = () => (
         Bird
       </ExternalLink>
     </Subtitle>
+    <Subtitle>
+      technologies used: React, Next.js, Tailwind CSS, PostgreSQL
+    </Subtitle>
     <Paragraph>
       At Bird I greatly improved my product thinking and I also got used to
       working on a huge codebase. Initially I was part of the business
@@ -36,6 +39,9 @@ export const WorkingExperience: FunctionComponent = () => (
         DEPT®
       </ExternalLink>
     </Subtitle>
+    <Subtitle>
+      technologies used: React, Next.js, Styled Components, vanilla-extract
+    </Subtitle>
     <Paragraph>
       DEPT® is one of the biggest agencies worldwide and it was a joy working
       there. I worked on multiple exciting projects, all of them built with
@@ -54,6 +60,7 @@ export const WorkingExperience: FunctionComponent = () => (
         Touchtribe
       </ExternalLink>
     </Subtitle>
+    <Subtitle>technologies used: React, Next.js, Styled Components</Subtitle>
     <Paragraph>
       I started at Touchtribe as lead frontend developer and later got promoted
       to team lead. As a team lead I was guiding a team of five frontend
@@ -65,6 +72,9 @@ export const WorkingExperience: FunctionComponent = () => (
       <ExternalLink hasLeadingSpace href="//codedazur.com/">
         code d&apos;azur
       </ExternalLink>
+    </Subtitle>
+    <Subtitle>
+      technologies used: React, Next.js, Gatsby, Styled Components
     </Subtitle>
     <Paragraph>
       Since I was missing the comradery digital agencies had to offer, I decided
@@ -78,6 +88,7 @@ export const WorkingExperience: FunctionComponent = () => (
         Cygni NL
       </ExternalLink>
     </Subtitle>
+    <Subtitle>technologies used: React, Styled Components</Subtitle>
     <Paragraph>
       When I joined Cygni I actually was the first developer they hired in the
       Netherlands. After my hiring, we wanted to grow the team, a process which
@@ -95,6 +106,9 @@ export const WorkingExperience: FunctionComponent = () => (
         Random Studio
       </ExternalLink>
     </Subtitle>
+    <Subtitle>
+      technologies used: React, PixiJS, CSS Modules, Styled Components
+    </Subtitle>
     <Paragraph>
       At Random Studio I really started to get experienced with React. I did a
       lot of cool projects there, including one of my most favorite ones of all
@@ -106,6 +120,7 @@ export const WorkingExperience: FunctionComponent = () => (
         Momkai
       </ExternalLink>
     </Subtitle>
+    <Subtitle>technologies used: Backbone.js, React, CSS Modules</Subtitle>
     <Paragraph>
       I started at Momkai as an intern frontend developer as part of my
       graduation internship. After successfully finishing this internship and
@@ -118,6 +133,7 @@ export const WorkingExperience: FunctionComponent = () => (
         Atabix Solutions
       </ExternalLink>
     </Subtitle>
+    <Subtitle>technologies used: Twig, jQuery</Subtitle>
     <Paragraph>
       Working at Atabix was my first frontend developer job. During my time at
       Atabix I worked on websites for a lot of different clients, ranging from
