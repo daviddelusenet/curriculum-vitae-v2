@@ -8,15 +8,15 @@ export const Introduction: FunctionComponent = () => (
     <Paragraph>
       I&apos;m a senior frontend engineer with over thirteen years of hands-on
       experience. I&apos;ve successfully worked in multidisciplinary teams
-      containing multiple nationalities. Operating as an one-man army also
+      containing multiple nationalities. Operating as a one-man army also
       isn&apos;t a problem for me.
     </Paragraph>
     <Paragraph>
       Because of my extensive experience working at digital agencies I&apos;ve
-      developed a strong eye for detail and design. I work fast and precise and
-      my code is clean and to the point. Currently my expertise is React/Next.js
-      in combination with TypeScript but I&apos;m open to exploring new
-      technologies.
+      developed a strong eye for detail and design. I work fast and precisely
+      and my code is clean and to the point. Currently my expertise is
+      React/Next.js in combination with TypeScript but I&apos;m open to
+      exploring new technologies.
     </Paragraph>
     <Paragraph>
       Besides my TypeScript experience I&apos;m also experienced with a lot of
