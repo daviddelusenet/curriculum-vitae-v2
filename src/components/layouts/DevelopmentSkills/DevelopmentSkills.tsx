@@ -6,8 +6,9 @@ import { Title } from "../../atoms/Title/Title";
 
 const currentTools = [
   "React/Next.js with TypeScript",
-  "Tailwind CSS/Vanilla Extract JS/Styled Components/CSS Modules",
-  "Jest/Vitest/React Testing Library",
+  "Tailwind CSS/vanilla-extract/Styled Components/CSS Modules",
+  "Jest/Vitest/React Testing Library/Playwright/Cypress",
+  "React Hook Form/Yup/TanStack Query",
   "GSAP/Framer Motion",
   "Storybook",
   "ESLint/Stylelint/Prettier",

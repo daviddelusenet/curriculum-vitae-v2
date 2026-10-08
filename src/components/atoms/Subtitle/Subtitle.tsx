@@ -6,7 +6,7 @@ import { underline } from "../../../styles/mixins/underline";
 
 export interface SubtitleProps {
   children: ReactNode;
-  date: string;
+  date?: string;
 }
 
 export const Subtitle: FunctionComponent<SubtitleProps> = ({
@@ -14,7 +14,7 @@ export const Subtitle: FunctionComponent<SubtitleProps> = ({
   date,
 }) => (
   <StyledSubtitle>
-    <span>{date}</span>
+    {date && <span>{date}</span>}
     {children}
   </StyledSubtitle>
 );
