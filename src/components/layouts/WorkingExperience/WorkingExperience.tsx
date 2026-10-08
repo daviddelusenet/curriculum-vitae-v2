@@ -19,7 +19,7 @@ export const WorkingExperience: FunctionComponent = () => (
     <Paragraph>
       At Bird I greatly improved my product thinking and I also got used to
       working on a huge codebase. Initially I was part of the business
-      infrastructure team, which was responsible for helping out where ever help
+      infrastructure team, which was responsible for helping out wherever help
       was needed.
     </Paragraph>
     <Paragraph>
@@ -77,8 +77,8 @@ export const WorkingExperience: FunctionComponent = () => (
       technologies used: React, Next.js, Gatsby, Styled Components
     </Subtitle>
     <Paragraph>
-      Since I was missing the comradery digital agencies had to offer, I decided
-      to join code d&apos;azur. Here I started working fulltime with
+      Since I was missing the camaraderie digital agencies had to offer, I
+      decided to join code d&apos;azur. Here I started working fulltime with
       technologies like Gatsby and Next.js. I also worked for numerous clients,
       like Philips, Lotus Cars, Knit! Kvadrat and Polestar.
     </Paragraph>
